@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".activities.ConnectionTipsActivity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="1dp"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/newpost_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="-2dp"
+            android:orientation="vertical">
+
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_heading"
+                android:text="@string/connection_tips_heading"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textColor="@color/Black"
+                android:gravity="center_horizontal"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title"
+                android:text="Why should I connect?"
+                android:layout_below="@id/post_tips_heading"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_tips_title"
+                android:id="@+id/tips_text"
+                android:padding="12dp"
+                android:gravity="left"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title2"
+                android:text="Whom should I connect with?"
+                android:layout_below="@id/tips_text"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_tips_title2"
+                android:id="@+id/tips_text2"
+                android:padding="12dp"
+                android:gravity="left"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title3"
+                android:text="How should I connect with other Krigers?"
+                android:layout_below="@id/tips_text2"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_tips_title3"
+                android:id="@+id/tips_text3"
+                android:padding="12dp"
+                android:gravity="left"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

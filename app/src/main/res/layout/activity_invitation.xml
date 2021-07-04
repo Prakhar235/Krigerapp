@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.InvitationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="You have been invited by -"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:gravity="center_horizontal"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/imageButton_dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:id="@+id/name"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/Black"
+                android:layout_marginTop="40dp"
+                android:id="@+id/textview_contribution"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:gravity="center"
+                    android:text="Dashboard"
+                    android:textColor="@color/Blue"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/profile_visitors"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/posts_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:text="Posts"
+                            android:textColor="@android:color/black"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/posts_ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/posts_no"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:textColor="@color/Blue"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/groups_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:text="Groups"
+                            android:textColor="@android:color/black"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            />
+
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/groups_ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/groups_no"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:layout_weight="1"
+                            android:textColor="@color/Blue"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/connections_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:text="Krigers"
+                            android:textColor="@android:color/black"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/connections_ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/connections_no"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:layout_weight="1"
+                            android:textColor="@color/Blue"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/visitors_layout"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/visitors_no"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:text="Profile Views"
+                            android:textColor="@android:color/black"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:id="@+id/visitors_ans"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/visitors_no"
+                            android:layout_gravity="center"
+                            android:text="0"
+                            android:layout_weight="1"
+                            android:textColor="@color/Blue"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:textColor="@color/White"
+        android:text="Let's Start Contributing"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/btn_start_contributing"/>
+</RelativeLayout>

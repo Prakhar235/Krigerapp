@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.EducatorActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:gravity="center"
+                android:padding="3dp"
+                android:textStyle="bold"
+                android:text="Learner : I Study"
+                android:textColor="@color/Blue"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Student" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Exam Aspirant" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Scholar" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Researcher" />
+
+                <!--<in.kriger.krigercampus.extras.CustomEditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:singleLine="true"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:textColor="@color/Black"-->
+                <!--android:inputType="textCapWords"-->
+                <!--android:id="@+id/edittext_otherlearn"-->
+                <!--android:textColorHint="@color/Blue"-->
+                <!--android:textSize="12sp"/>-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="OR"
+                    android:textColor="@color/Black"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="Educator : I Teach"
+                    android:textColor="@color/Blue"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Teacher" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Lecturer" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Professor" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Counselor" />
+
+                    <!--<CheckBox-->
+                    <!--android:id="@+id/checkBoxEdu5"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:text="Subject Expert" />-->
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Tutor" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Author" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxEdu7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Trainer" />
+
+                    <CheckBox
+                    android:id="@+id/checkBoxEdu8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Career Counselor" />
+
+                    <!--<CheckBox-->
+                    <!--android:id="@+id/checkBoxEdu10"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:text="Others" />-->
+
+                    <!--<in.kriger.krigercampus.extras.CustomEditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:textColor="@color/Black"-->
+                    <!--android:inputType="textCapWords"-->
+                    <!--android:id="@+id/edittext_otheredu"-->
+                    <!--android:textColorHint="@color/Blue"-->
+                    <!--android:textSize="12sp"/>-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="OR"
+                    android:textColor="@color/Black"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="Institute : We educate"
+                    android:textColor="@color/Blue"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Coaching Institute" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="School" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Play School" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="College" />
+
+                    <!--<CheckBox-->
+                    <!--android:id="@+id/checkBoxEdu5"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:text="Subject Expert" />-->
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Training Institute" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Educational NGO's" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Library" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Study Center" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxCop9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="Vocational School" />
+
+                    <!--<CheckBox-->
+                    <!--android:id="@+id/checkBoxEdu10"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="25dp"-->
+                    <!--android:text="Others" />-->
+
+                    <!--<in.kriger.krigercampus.extras.CustomEditText-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:singleLine="true"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:layout_marginLeft="30dp"-->
+                    <!--android:textColor="@color/Black"-->
+                    <!--android:inputType="textCapWords"-->
+                    <!--android:id="@+id/edittext_otheredu"-->
+                    <!--android:textColorHint="@color/Blue"-->
+                    <!--android:textSize="12sp"/>-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:id="@+id/button_next"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/profile_bar_gradient_round"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

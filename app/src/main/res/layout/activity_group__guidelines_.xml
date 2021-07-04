@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".activities.GroupPostTipsActivity">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:background="@color/White"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/newpost_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title"
+                android:text="How are Kriger Groups better than WhatsApp and telegram?"
+                android:layout_below="@id/post_tips_heading"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_heading"
+                android:text="@string/creation1"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title1"
+                android:text="What can I create groups for?"
+                android:layout_below="@id/post_tips_heading"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_heading1"
+                android:text="@string/creation2"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_title2"
+                android:text="Group Creation Guidelines"
+                android:layout_below="@id/post_tips_heading"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/post_tips_heading2"
+                android:text="@string/creation3"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/Black"
+                android:gravity="left"
+                android:padding="12dp"
+                android:textSize="12sp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/post_tips_heading2"
+                android:id="@+id/tips_text"
+                android:padding="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left"
+                android:textSize="12sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scroll"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-1dp"
+                    android:layout_below="@id/tips_text3"
+                    android:id="@+id/checkbox_read"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/accept"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:layout_toLeftOf="@+id/accept_text"/>
+
+                    <in.kriger.newkrigercampus.extras.CustomTextView
+                        android:id="@+id/accept_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="I have read all the guidelines"
+                        android:textSize="16sp"
+                        android:textColor="#F44336"/>
+
+                </LinearLayout>
+
+                <in.kriger.newkrigercampus.extras.CustomButton
+                    android:id="@+id/add_users_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/checkbox_read"
+                    android:layout_gravity="center"
+                    android:background="@drawable/profile_bar_gradient_round"
+                    android:text="I Agree"
+                    android:padding="5dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <in.kriger.newkrigercampus.extras.CustomButton
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/add_users_group"
+                    android:background="@color/White"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

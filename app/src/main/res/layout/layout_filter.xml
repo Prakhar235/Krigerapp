@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/filter_layout"
+    android:background="@color/white">
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:orientation="horizontal"
+      android:background="@drawable/button_background_blue"
+      android:layout_marginTop="20dp">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/resource_type"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/down_arrow_hide" />
+
+  </RelativeLayout>
+
+
+
+
+
+
+  <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="20dp"
+      android:hint="Select Exam"
+      android:background="@drawable/edittext_layout"
+      android:id="@+id/exams"/>
+
+  <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="20dp"
+      android:hint="Select Subject"
+      android:background="@drawable/edittext_layout"
+      android:id="@+id/sub"/>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:orientation="horizontal"
+      android:background="@drawable/button_background_blue"
+      android:layout_marginTop="20dp">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:spinnerMode="dialog"
+        android:background="@color/white"
+        android:id="@+id/spinner_class" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/down_arrow_hide" />
+
+  </RelativeLayout>
+
+
+
+
+  <in.kriger.newkrigercampus.extras.CustomEditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="20dp"
+      android:hint="Enter Fee amount"
+      android:background="@drawable/edittext_layout"
+      android:id="@+id/fees"
+      android:inputType="number"/>
+
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:orientation="horizontal"
+      android:background="@drawable/button_background_blue"
+      android:layout_marginTop="20dp">
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:spinnerMode="dialog"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:id="@+id/fees_type"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/down_arrow_hide" />
+
+  </RelativeLayout>
+
+
+
+
+</LinearLayout>

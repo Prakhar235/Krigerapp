@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.SearchActivity">
+
+    <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search on Kriger Campus"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_background_round_white"
+        android:padding="5dp"
+        android:id="@+id/text_search"
+        android:imeOptions="actionSearch"
+        android:visibility="gone"
+        android:inputType="text"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search_24dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/btn_text_search"
+        android:layout_alignEnd="@id/text_search"
+        android:visibility="gone"
+        android:layout_marginRight="3dp"/>
+
+    <in.kriger.newkrigercampus.SlidingTabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text_search"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="match_parent"
+        android:layout_below="@id/sliding_tabs"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/text_search"
+        android:layout_height="wrap_content">
+
+        <com.astuetz.PagerSlidingTabStrip
+            android:id="@+id/pager_header"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="48dip"
+            android:layout_gravity="top"
+            />
+    </android.support.v4.view.ViewPager>-->
+
+</RelativeLayout>

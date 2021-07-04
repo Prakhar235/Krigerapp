@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:id="@+id/layout_urlpreview"
+    android:padding="5dp"
+
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/layout_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_black"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageButton_dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:paddingLeft="15dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                        android:id="@+id/sname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Loading..."
+                        android:ellipsize="end"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp" />
+
+
+                    <ImageButton
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/cancel_request"
+                        android:background="?android:selectableItemBackground"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/imageButton_cancel"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:id="@+id/sheadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="Loading..."
+                    android:maxLines="3"
+                    android:textColor="@color/Black"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

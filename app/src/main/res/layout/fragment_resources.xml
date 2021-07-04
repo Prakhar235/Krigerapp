@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".resourcefragments.Resources">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Background"
+            android:orientation="horizontal">
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sort"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                android:id="@+id/btn_sort"
+                android:textSize="18dp"
+                android:textColor="@color/Blue"
+                android:layout_weight="1"/>
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:textSize="18dp"
+                android:background="@color/white"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:textColor="@color/Blue"
+                android:id="@+id/btn_filter"
+                android:textAllCaps="false"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="Currently, no listings in your area"
+            android:id="@+id/no_resources" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--<com.github.clans.fab.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_marginBottom="50dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:src="@drawable/fab_add"-->
+        <!--app:fab_colorNormal="@color/colorPrimary"/>-->
+
+
+
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myResources xmlns:android="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3994e4 </color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBackground">#b2dfdb</color>
+    <color name="Cyan">#007bb6</color>
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="ButtonBackground">#007bb6</color>
+    <color name="UICOLOR">#1e0f3b</color>
+    <color name="Brown">#BDBDBD</color>
+    <color name="Blue">#1D85FE</color>
+    <color name="Grey">#607D8B</color>
+    <color name="Background">#C2C2C2</color>
+    <color name="Foreground">#F2F2F2</color>
+    <color name="New_Blue">#1D85FE</color>
+    <color name="Green">#a4c639</color>
+    <color name="Orange">#FF7F50</color>
+    <color name="DarkGreen">#5ec639</color>
+    <color name="Mes_color">#87ceeb</color>
+    <color name="Offline">#FF0000</color>
+    <color name="Online">#5ec639</color>
+</myResources>
+
+

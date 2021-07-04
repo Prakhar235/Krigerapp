@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".groupactivities.CreateGroup">
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grp_text"
+        android:textColor="@color/Black"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textSize="15sp"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/cover_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/group_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_color="@color/Black"
+        app:civ_border_width="1dp"
+        android:src="@drawable/default_group_pic"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_photo_camera"
+        android:background="@drawable/circular_background_white"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_edit_camera"
+        android:layout_alignBottom="@+id/group_photo"
+        android:layout_alignEnd="@+id/group_photo"
+        android:layout_gravity="top|right" />
+    </RelativeLayout>
+
+
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:id="@+id/grp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/Blue"
+        android:textSize="15sp" />
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:id="@+id/textLim"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="end"
+        android:layout_toRightOf="@id/grp_name"
+        android:textColor="@color/UICOLOR"
+        android:textSize="15sp" />
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:id="@+id/grp_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="start"
+        android:inputType="textCapSentences"
+        android:minLines="3"
+        android:textColorHint="@color/Blue"
+        android:textSize="15sp" />
+    <in.kriger.newkrigercampus.extras.CustomTextView
+
+    android:id="@+id/textLim_about"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="end"
+        android:layout_toRightOf="@id/grp_about"
+        android:textColor="@color/UICOLOR"
+        android:textSize="15sp" />
+
+
+    <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+        android:id="@+id/exams_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="start"
+        android:inputType="textCapSentences"
+        android:minLines="3"
+        android:hint="Exam Name"
+        android:textColorHint="@color/Blue"
+        android:textSize="15sp"/>
+
+    <com.nex3z.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:itemSpacing="8dp"
+        android:id="@+id/flow_exams">
+    </com.nex3z.flowlayout.FlowLayout>
+
+
+    <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+        android:id="@+id/subjects_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="start"
+        android:inputType="textCapSentences"
+        android:minLines="3"
+        android:hint="Subject Name"
+        android:textColorHint="@color/Blue"
+        android:textSize="15sp"/>
+
+    <com.nex3z.flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemSpacing="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/flow_sub">
+    </com.nex3z.flowlayout.FlowLayout>
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_req"
+        android:textColor="@color/Black"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"/>
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add Members"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
+

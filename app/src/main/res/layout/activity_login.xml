@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_login"
+    android:background="@color/White">
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/btn_login_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:gravity="center"
+        android:text="Preview"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/editText_login_email"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/kriger_logo"
+        android:padding="2dp"
+        android:id="@+id/kc_logo" />
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:id="@+id/editText_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_above="@+id/editText_login_password"
+        android:paddingStart="10dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/Black"
+        android:drawableLeft="@drawable/email"
+        android:hint="@string/email"
+        android:textColorHint="#3994e4"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:inputType="textWebEmailAddress"/>
+
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_above="@+id/button_login_login"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:textColor="@color/Black"
+        android:textColorHint="#3994e4"
+        android:textSize="15sp"
+        android:paddingTop="12dp"
+        android:drawableLeft="@drawable/psw"
+        android:paddingBottom="12dp"
+        android:id="@+id/editText_login_password"/>
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:layout_width="match_parent"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_above="@+id/button_login_signup"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button_login_login" />
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:layout_width="match_parent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_above="@+id/button_login_trouble"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_login_signup"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:text="Register"
+        android:background="@drawable/button_background_blue"
+        android:gravity="center"
+        android:textColor="#3994e4"
+        android:textSize="18sp"
+        />
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:text="@string/having_trouble"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/button_login_trouble"
+        />
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:text="@string/forgot_password"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45dp"
+        android:layout_above="@+id/button_login_login"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:paddingBottom="3dp"
+        android:textAllCaps="false"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_login_forgot"
+        />
+
+
+
+
+</RelativeLayout>

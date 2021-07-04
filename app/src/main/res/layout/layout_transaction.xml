@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timestamp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_margin="5dp"/>
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/time"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+
+
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paytm ID"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_margin="5dp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txn_id"
+                android:textColor="@color/Black"
+                android:textSize="12dp"
+        android:layout_margin="5dp"/>
+
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bank_txnid"
+        android:visibility="gone"
+        android:layout_margin="5dp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kriger ID"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_margin="5dp"/>
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_id"
+        android:textColor="@color/Black"
+        android:textSize="12dp"
+        android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Amount Paid"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_margin="5dp"/>
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2000 Rs"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:layout_margin="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Coins Purchased"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_margin="5dp"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2000 Coins"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+

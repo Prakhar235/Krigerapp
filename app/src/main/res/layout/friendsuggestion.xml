@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/suggest_img_profile"/>
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:id="@+id/suggest_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Blue"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"/>
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/suggestion_no_connections"
+        android:textSize="15sp"/>
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Add friend"
+        android:id="@+id/suggest_add_friend"
+        android:textColor="@color/White"
+        android:background="@drawable/profile_bar_gradient_round"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".activities.ImageActivity">
+
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradient_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:id="@+id/profile_photo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_username"
+                        android:textColor="@color/White"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="10dp" />
+
+                    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/textView_date"
+                        android:textSize="13sp"
+                        android:textColor="@color/White"
+                        android:layout_marginRight="15dp"
+                        />
+
+
+
+                </LinearLayout>
+
+                <in.kriger.newkrigercampus.extras.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_bio"
+                    android:textColor="@color/White"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="10dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <in.kriger.newkrigercampus.extras.SpecialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:textIsSelectable="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            app:social="hashtag|mention|hyperlink"
+            app:hashtagColor="@color/colorPrimary"
+            app:mentionColor="@color/colorPrimary"
+            app:hyperlinkColor="@color/Blue"
+            android:textColor="@color/White"
+            android:id="@+id/posttext"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:theme="@style/AppTheme.ProgressBarWhite"
+        android:visibility="gone"/>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="450dp"-->
+        <!--android:id="@+id/image"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"/>-->
+
+    <com.ortiz.touchview.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/image"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+
+
+
+</RelativeLayout>

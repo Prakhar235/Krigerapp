@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".groupactivities.SearchFriends">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#ededed"
+        android:id="@+id/invite_friend"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <in.kriger.newkrigercampus.extras.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/Black"
+            android:text="Is your friend not on the app ?"
+            android:textSize="18dp" />
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/btn_invite1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/profile_bar_gradient_round"
+            android:text="Invite"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:textColor="@color/White"/>
+    </LinearLayout>
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selected"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:text="Selected Members (0)"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choosen_list"
+        android:layout_below="@+id/selected"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggested"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/choosen_list"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/Black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="My Krigers"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/suggested_list"
+        android:background="@color/White"
+        android:layout_below="@+id/suggested"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+<in.kriger.newkrigercampus.extras.CustomTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/group_image_view"
+    android:visibility="gone"/>
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp_grp_name"
+        android:visibility="gone"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp_grp_image"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

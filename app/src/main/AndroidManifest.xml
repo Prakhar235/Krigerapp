@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.kriger.newkrigercampus">
+
+    <uses-sdk tools:overrideLibrary="com.tunjid.androidbootstrap.core" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+
+    <application
+        android:name="in.kriger.newkrigercampus.activities.MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:label="Kriger Campus"
+        android:supportsRtl="true"
+        tools:replace="android:label"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="in.kriger.newkrigercampus.activities.PaymentsActivity"></activity>
+        <activity android:name="in.kriger.newkrigercampus.activities.WebViewActivity" />
+        <activity android:name="in.kriger.newkrigercampus.activities.SettingsActivity" />
+        <activity android:name="in.kriger.newkrigercampus.activities.ResourceActivity" />
+        <activity android:name="in.kriger.newkrigercampus.activities.CreateResourceActivity" />
+        <activity android:name="in.kriger.newkrigercampus.activities.Terms_ConditionsActivity" />
+        <activity android:name="in.kriger.newkrigercampus.activities.EducatorActivity" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.InvitationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="in.kriger.newkrigercampus.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <service android:name="in.kriger.newkrigercampus.services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="in.kriger.newkrigercampus.services.AppIndexingService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.APPINDEXING">
+            <intent-filter>
+                <action android:name="com.google.firebase.appindexing.UPDATE_INDEX" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_kc" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.NewPostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEND" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data android:mimeType="image/*" /> -->
+            <!-- </intent-filter> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEND" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data android:mimeType="text/plain" /> -->
+            <!-- </intent-filter> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEND_MULTIPLE" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data android:mimeType="image/*" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.AnswerListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https"
+                    android:host="kriger.in" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="in.kriger.newkrigercampus.ResendVerificationEmail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="in.kriger.newkrigercampus.ResetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="in.kriger.newkrigercampus.PhoneVerification" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="in.kriger.newkrigercampus.activities.ChangePasswordActivity" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.KrigerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.ContactListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.WelcomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="in.kriger.newkrigercampus.activities.ProfileListActivity">
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https"
+                    android:host="kriger.in" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="in.kriger.newkrigercampus.activities.LikeListActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.CreateGroup"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="in.kriger.newkrigercampus.groupactivities.SearchFriends" />
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.ShowGroup"
+            android:label="@string/title_activity_show_group"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="in.kriger.newkrigercampus.groupactivities.GroupNotifications" />
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.GroupAbout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="in.kriger.newkrigercampus.groupactivities.GroupInvitesMembers" />
+        <activity android:name="in.kriger.newkrigercampus.activities.ImageActivity" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.NewGroupPostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.JoinRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.AnswerGroupListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.Hashtag_SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.ViewGroupMembers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.AssignNewOwner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.GroupLikeListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.PostTipsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.SuggestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.ContactDenyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.ConnectionTipsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.GroupPostTipsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.SuggestionReplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.groupactivities.Group_Guidelines_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.DummyAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="807cb170a9644a6feeca7a0343daeeceb01b0f0a" />
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider750243738753047"
+            android:exported="true" />
+
+        <activity
+            android:name="in.kriger.newkrigercampus.activities.PreviewActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+    </application>
+
+</manifest>

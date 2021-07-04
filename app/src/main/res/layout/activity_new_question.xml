@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_new_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context="in.kriger.newkrigercampus.activities.NewPostActivity">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:id="@+id/newpost_scrolllayout"
+        android:layout_marginBottom="1dp"
+        android:layout_above="@+id/button_submit_post"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/newpost_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="-2dp"
+            android:orientation="vertical">
+
+
+
+            <in.kriger.newkrigercampus.extras.SpecialAutoCompleteTextView
+                android:id="@+id/editText_newpost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_margin="2dp"
+                android:layout_marginTop="3dp"
+                android:gravity="top"
+                android:imeOptions="actionSearch"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="1"
+                android:padding="5dp"
+                android:scrollbars="vertical"
+                android:hint="\n"
+                android:textSize="15sp"
+                app:mentionColor="@color/Blue"
+                app:hyperlinkColor="@color/Blue"
+                app:social="hashtag|mention|hyperlink"
+                app:hashtagColor="@color/Blue"
+                android:completionThreshold="0"/>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:id="@+id/textView_wordcount"
+                android:paddingRight="15dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_image"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <in.kriger.newkrigercampus.extras.CustomButton
+                    android:id="@+id/button_remove"
+                    android:visibility="gone"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignEnd="@+id/image_upload"
+                    android:layout_alignTop="@+id/image_upload"
+                    android:layout_gravity="top|right"
+                    android:background="@drawable/button_bg_round_gradient"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="X"
+                    android:textSize="15sp"
+                    android:textColor="@color/White"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/image_upload" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_pdf"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="Selected file : "
+                    android:textColor="@color/New_Blue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_weight="0.8"
+                    android:id="@+id/textview_pdf"
+                    android:textColor="@color/New_Blue"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/delete_icon"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/ic_close_black_24dp"
+                    android:background="@color/White"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/edit_addimage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button_submit_post"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/button_bg_round_gradient"
+        android:src="@drawable/photo_camera"
+        android:padding="7dp"
+        android:layout_marginTop="-5dp"
+        />
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/button_mention_friend"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edit_addimage"
+        android:layout_marginStart="65dp"
+        android:gravity="center"
+        android:background="@drawable/button_bg_round_gradient"
+        android:text="@string/mention"
+        android:paddingBottom="5dp"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/button_hashtag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edit_addimage"
+        android:layout_marginStart="114dp"
+        android:background="@drawable/button_bg_round_gradient"
+        android:text="#"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/edit_addpdf"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/button_submit_post"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="163dp"
+        android:padding="10dp"
+        android:tint="@color/White"
+        android:background="@drawable/button_bg_round_gradient"
+        android:src="@drawable/attachment"
+        />
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/button_tips"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edit_addimage"
+        android:layout_marginStart="213dp"
+        android:background="@drawable/button_bg_round_gradient"
+        android:text="@string/post_tips"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/button_submit_post"
+        android:layout_width="75dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:text="@string/post"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:layout_alignParentBottom="true">-->
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/edit_addimage"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:src="@drawable/ic_action_camera_white"-->
+            <!--android:tint="@color/Black"-->
+            <!--/>-->
+
+
+        <!--<in.kriger.krigercampus.extras.CustomButton-->
+            <!--android:id="@+id/button_mention_friend"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:background="@color/White"-->
+            <!--android:text="@string/mention"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/Black"-->
+            <!--android:textSize="26sp"-->
+            <!--android:textStyle="bold"/>-->
+
+
+        <!--<in.kriger.krigercampus.extras.CustomButton-->
+            <!--android:id="@+id/button_hashtag"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:layout_marginEnd="3dp"-->
+            <!--android:background="@color/White"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:text="#"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/Black"-->
+            <!--android:textSize="26sp"-->
+            <!--android:textStyle="bold" />-->
+
+
+        <!--<in.kriger.krigercampus.extras.CustomButton-->
+            <!--android:id="@+id/button_tips"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@color/White"-->
+            <!--android:text="@string/post_tips"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/Black"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold"/>-->
+
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="0dp"/>-->
+
+
+
+
+        <!--<in.kriger.krigercampus.extras.CustomButton-->
+            <!--android:id="@+id/button_submit_post"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@drawable/button_background_round_blue"-->
+            <!--android:text="@string/post"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/White"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold" />-->
+
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+</RelativeLayout>
+

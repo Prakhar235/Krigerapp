@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".groupactivities.ViewGroupMembers">
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:id="@+id/noInvites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addmem_text"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:text="No Invites yet!"
+        android:textColor="@color/Black"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addmem_text"
+        android:textAlignment="center"
+        android:text="Let's add Krigers to this group!"
+        android:textColor="@color/Black"
+        android:textSize="22sp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_GroupInv">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/add_members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center"
+        android:textAllCaps="false"
+        android:layout_marginBottom="33dp"
+        android:text="Add Members"
+        android:textColor="@color/White"
+        android:padding="10dp"
+        android:background="@drawable/profile_bar_gradient_round"
+        />
+
+
+
+</RelativeLayout>

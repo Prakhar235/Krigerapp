@@ -1,0 +1,2451 @@
+<resources>
+    <string name="app_name">Kriger Campus</string>
+    <string name="facebook_app_id">750243738753047</string>
+    <string name="title_activity_create_update_profile">CreateUpdateProfileActivity</string>
+    <string name="facebook_login_protocol_scheme">fb750243738753047</string>
+
+
+    <string name="preference_file_key">com.kriger.krigercampus.Preference</string>
+
+    <string name="termsandconditions">Click Register, If you agree to our <a href="https://kriger.in/term-conditions"> <![CDATA[<font color=#1D85FE><u><b>terms and conditions.<br/></b></u></font>]]></a>You will receive verification mail.</string>
+
+    <string name="termsandconditionsresource">By proceeding you agree to our <a href="https://kriger.in/term-conditions"> <![CDATA[<font color=#1D85FE><u><b>terms and conditions.<br/></b></u></font>]]></a></string>
+
+
+    <array name="method_array">
+        <item>Mail</item>
+        <item>Whatsapp</item>
+    </array>
+
+    <string name="grp_guidelines">Groups have <b>UNLIMITED MEMBERSHIP</b>. \n You can make groups to  \n \n  <b>PREPARE FOR : </b>Competitive Exams, Interviews\n <b>DISCUSS : </b>Projects, Assignment, Books\n <b>ORGANISE : </b>Study Groups, Local meetups
+
+</string>
+
+    <string name="social_score_text2">Increase your : Profile Rank, Post Views, Connection Requests</string>
+
+    <string name="social_score_text1"> Your Kriger Score is the number of people who joined YOU in the mission of making India 100% literate. Benefits of inviting friends.</string>
+
+
+    <string name="social_score_text"> \n\nYour Kriger Score is the number of people who joined YOU in the mission of making India 100% literate.\n\n</string>
+
+    <string name="newpost1">Report useless posts</string>
+
+    <string name="pending_invitation">Pending \n Invitation</string>
+
+    <string name="newpost2">How can  <![CDATA[<font color=#F44336>YOU</font>]]> <![CDATA[ make India 100% literate?<br />]]> </string>
+
+    <string name="newpost"> <![CDATA[<b><font color=#1D85FE>Discuss : </font></b>]]><![CDATA[  Questions, Concepts, Chapters<br />]]> <![CDATA[<b><font color=#1D85FE>Share : </font></b>]]><![CDATA[ Notes<br />]]><![CDATA[<b><font color=#1D85FE>Help aspirants with : </font></b>]]> <![CDATA[ Exam preparation tips, Interview tips, College experience<br />]]><![CDATA[<b><font color=#1D85FE>Update : </font></b>]]> <![CDATA[ Exam &amp; form dates <br/><br />]]>
+
+    </string>
+
+
+    <string name="post_tips_heading">Post to build your personal brand and grow your network. \n \n Here are the most important posting guidelines</string>
+
+    <string name="connection_tips_heading">Build your network before you need it</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
+
+    <!--<string name="newpost"><b>How can YOU make India 100% literate? :</b>  \n \n  <li>Discuss questions &amp; notes</li>-->
+    <!--\n <li>Exam and interview tips</li>-->
+    <!--\n <li>Exam and Form dates</li>-->
+    <!--\n <li>Fest details</li>-->
+    <!--\n <li>College Experience</li> \n-->
+    <!--</string>-->
+
+    <string name="creation1">Unlike WhatsApp and Telegram\n1.Kriger Groups have an unlimited membership.\n2.You can add members from across Kriger Network without the need of saving their details.\n3.Every post and its comments are separate from each other to help you keep track of the discussion.</string>
+    <string name="creation2">You can create groups for academic purposes for example\n\n1.Internships\n2.Placements\n3.Competitive exams\n4.Interview preparation\n5.General Knowledge\n6.English Vocabulary\n7.Job updates\n8.Group Discussions\n9.Group projects\n10.College committees</string>
+    <string name="creation3">Please note you are allowed to create a ‘Group’ at Kriger Campus app solely for academic purposes.\n\nA Group has NO membership limit.\n\nStill, it’s suggested to keep the members count small for easy management of communication.\n\nA group has to be responsibly managed by its owners and admins.\n\nAvoid adding minors and strangers in your group.\n\nThe practice of hate speech, sensationalism, fear-mongering, and unparliamentary language is not at all allowed.</string>
+
+
+    <string name="group_tips_heading">Create group only for academic purposes.\n \nGroups have no membership limit still don’t create huge groups which you can’t moderate.\n \nGroup owner and admins are responsible for the members added and content posted by those members.\n \nDon’t create groups with minors who don’t know each other – no parent wants their kids talking to strangers.\n \nThe group is not a political platform no unparliamentary, explicit, adult or irrelevant information no arguing, no heated opinions, no fear mongering, no hyped up drama, no fake news. Check your sources before you share.\n \nDon’t add random people.\n </string>
+
+    <string name="your_ideas_worth_spreading_group_creation">
+     <![CDATA[<font color=#F44336>Any instance of non-adherence or violation of these guidelines may be legally punishable under IT act, IPC & Cybercrime Law.</font>]]>
+     </string>
+
+
+    <string name="no_krigers">Connect with other krigers to grow your network.</string>
+
+
+    <string name="likes">&#160;<u>likes</u>&#160;</string>
+    <string name="no_notifications">No Notifications!</string>
+    <string name="type_your_response">Share your thoughts!</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="done">Done</string>
+    <string name="changepwd">Change Password</string>
+    <string name="suggest_new_features">Suggest Features or Whats wrong?</string>
+    <string name="what_s_wrong">What\'s Wrong</string>
+    <string name="fields_can_be_left_empty">Fields can be left empty.</string>
+    <string name="submit">Submit</string>
+    <string name="post_hint"><![CDATA[Grow your knowledge by sharing photo, text or file.<br/> Don’t post any political or unparliamentary content.<br/>]]><![CDATA[ Check the Tips for more information.]]></string>
+    <string name="post">Post</string>
+    <string name="mention">@</string>
+    <string name="post_tips">Tips</string>
+    <string name="no_likes_yet">No likes yet.</string>
+    <string name="email">Email</string>
+    <string name="gotit">Got it!</string>
+    <string name="having_trouble">Having Trouble ?</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <!--<string name="your_ideas_worth_spreading">Contribute in making <![CDATA[<b><font color=#FF7F50>IN</font></b>]]><![CDATA[<b><font color=#1D85FE>D</font></b>]]><![CDATA[<b><font color=#5ec639>IA</font></b>]]>  <![CDATA[ 100% literate<br />]]>  <![CDATA[ भारत को 100% साक्षर बनाने में योगदान करें<br /><br/><br/>]]> How can  <![CDATA[<font color=#F44336>YOU</font>]]> <![CDATA[ make India 100% literate?<br /><br/>]]> <![CDATA[<b><font color=#1D85FE>Discuss : </font></b>]]><![CDATA[  Questions, Concepts, Chapters<br />]]> <![CDATA[<b><font color=#1D85FE>Share : </font></b>]]><![CDATA[ Notes<br />]]><![CDATA[<b><font color=#1D85FE>Help aspirants with : </font></b>]]> <![CDATA[ Exam preparation tips, Interview tips, College experience<br />]]><![CDATA[<b><font color=#1D85FE>Update : </font></b>]]> <![CDATA[ Exam &amp; form dates <br/><br />]]>-->
+    <!--<![CDATA[<font color=#F44336>Report useless posts</font>]]>-->
+    <!--</string>-->
+
+    <string name="your_ideas_worth_spreading"> <![CDATA[<b><font color=#1D85FE>Share Updates : <br/></font></b>]]><![CDATA[ Exam dates<br />]]><![CDATA[ Form release dates<br />]]><![CDATA[ Daily college life updates<br /><br/>]]>
+
+        <![CDATA[<b><font color=#1D85FE>Inspire others by sharing : <br/> </font></b>]]><![CDATA[  Interview experience <br/> Interview preparation tips<br/> Exam preparation strategy<br/> Internship experience<br/> Quick Tips<br /><br/>]]>
+
+        <![CDATA[<b><font color=#1D85FE>Discuss : <br/> </font></b>]]><![CDATA[  Questions <br/> Concepts<br/> Books<br/> Industry News and Research<br/> In-Depth How-To and List-Style Posts Chapters<br /><br/>]]>
+
+        <![CDATA[<b><font color=#1D85FE>Ask for feedback on : <br/> </font></b>]]><![CDATA[  Research paper<br/> College projects<br/> Start-up ideas<br/> Prototypes<br/> Assignments<br /><br/>]]>
+
+        <![CDATA[<b><font color=#1D85FE>Share good news : <br/> </font></b>]]><![CDATA[  Passing an exam<br/> Passing certification course<br/> Winning a competition<br/> Raising funds<br /><br/>]]>
+
+        <![CDATA[<b><font color=#1D85FE>Announce : <br/> </font></b>]]><![CDATA[  Seminars<br/> Tedx talks<br/> Fest & events<br/> Book launch<br/> Collaboration<br/> CSR activities<br /><br/>]]>
+
+         <![CDATA[<b><font color=#1D85FE>Search : <br/> </font></b>]]><![CDATA[  Co-founders<br/> Internships<br/> Investors<br/> Mentor<br/> Advisor<br/> Volunteers<br /><br/>]]>
+
+         <![CDATA[<b><font color=#1D85FE>Organise : <br/> </font></b>]]><![CDATA[  Meetups<br/> Study groups]]>
+
+     </string>
+
+
+    <string name="your_ideas_worth_spreading_connection"> <![CDATA[<b><font color=#1D85FE>To Create Opportunities : <br/></font></b>]]><![CDATA[ You never know who can present you with the next opportunity. Connect with people who can help you in achieving your next education goal.<br /><br/>]]>
+         <![CDATA[<b><font color=#1D85FE>To gather info : <br/> </font></b>]]><![CDATA[ Connect to gather information about exams, colleges etc.<br/>]]>
+
+     </string>
+
+
+    <string name="why_post_guidelines">1. Publishing on Kriger Campus provides more value to connections who view your profile.\n2. Your network can share your post, opening you up to a larger (and previously unreached) audience.\n3. If your post is popular it will be shared by Kriger Campus official account, your potential reach is exponentially increased.\n4. Publishing valuable content on Kriger Campus positions you as an authority on your topic.</string>
+    <string name="how_post_guidelines">Based on the trends of our community one post per day maximum to two posts a week minimum, this keeps your profile on top of your network.</string>
+
+
+    <string name="how_connection_guidelines">It is the best education networking tool available today, and it is absolutely free.\nDedicate real time and effort to make the most of your connections, and you will establish worthwhile long-term relationships.
+Don’t SPAM with connection requests.\nDo treat your profile as your professional brochure. Use an appropriate-looking profile image and put in complete and up-to-date information. This will be your first impression for many.</string>
+
+
+    <string name="whom_connection_guidelines">Connect with other Krigers who can add value to your education plan.
+Take the time to find common ground based on your profiles and consider how you can bring reciprocal value. <![CDATA[<b><font color=#1D85FE><br/><br/>Search Profiles : <br/></font></b>]]><![CDATA[ Search for profiles based on your requirements and connect with only the required profiles do not blanket connect with every profile you see.<br /><br/>]]>
+         <![CDATA[<b><font color=#1D85FE>To Find Your Tribe : <br/> </font></b>]]><![CDATA[ Finding others who share your education interests is a great way to build your professional community.<br/>]]>
+
+</string>
+
+
+    <string name="see_more"><![CDATA[<b><font color= #1D85FE>See More</font></b>]]></string>
+    <string name="otp_for_verification">OTP would be send to the following number for verification:</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_code">VERIFY CODE</string>
+    <string name="otp_code">OTP Code</string>
+    <string name="password">Password</string>
+    <string name="send">Send</string>
+    <string name="registered_email">Your Registered Email</string>
+    <string name="invite">Invite</string>
+    <string name="please_wait">Please Wait!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Agree &amp; Register</string>
+    <string name="no_suggestions">Kudos!! \n You have exhausted your daily connection limit. \n Kriger Campus ensures quality networking by suggesting profiles only for YOU based on multiple parameters. \n Be back here tomorrow for more suggestions.</string>
+    <string name="suggestions">Suggested Krigers for you</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="contact_deny">Oops! We need your permission to help you</string>
+    <string name="no_invites_yet">No Invites Yet!</string>
+    <string name="invitations">Pending Invitations</string>
+    <string name="view_krigers">Your Network</string>
+    <string name="add_contacts">Invite Friends</string>
+    <string name="no_contacts_to_show">No contacts to show.</string>
+    <string name="invite_all">Invite All</string>
+    <string name="unchanged_name"><![CDATA[<font color= #F44336>*</font>]]>Name cannot be changed after you register.</string>
+    <string name="mandtory_fields"><![CDATA[<font color= #F44336>*</font>]]> Indicates required field</string>
+    <string name="upload_profile_picture_bio"><![CDATA[<font color= #F44336>*</font>]]>Update your profile picture and bio</string>
+    <string name="upload_profile_picture"><![CDATA[<font color= #F44336>*</font>]]>Upload a smiling selfie</string>
+    <string name="upload_group_picture"><![CDATA[<font color= #F44336>*</font>]]> Upload Group Picture</string>
+    <string name="upload_current_qualification"><![CDATA[<font color= #F44336>*</font>]]> Select your Current Qualification</string>
+    <string name="grp_name"><![CDATA[<font color= #F44336>*</font>]]>Group Name</string>
+    <string name="grp_desc"><![CDATA[<font color= #F44336>*</font>]]>Group Description</string>
+    <string name="full_name">Full Name</string>
+    <string name="about_me"><![CDATA[<font color= #F44336>*</font>]]>Bio (Keep it short and powerful)</string>
+    <string name="hometown"><![CDATA[<font color= #F44336>*</font>]]>Hometown</string>
+    <string name="state"><![CDATA[<font color= #F44336>*</font>]]>State</string>
+    <string name="country"><![CDATA[<font color= #F44336>*</font>]]>Country</string>
+    <string name="city"><![CDATA[<font color= #F44336>*</font>]]>City</string>
+    <string name="date_of_foundation"><![CDATA[<font color= #F44336>*</font>]]>Date of Foundation</string>
+    <string name="birthday"><![CDATA[<font color= #F44336>*</font>]]>Birthday (Not displayed publicly)</string>
+    <string name="_91"><![CDATA[<font color= #F44336>*</font>]]> +91</string>
+    <string name="contact">Contact(Not displayed publicly)</string>
+    <string name="contact_not_visible">*All fields above are mandatory, Contact won\'t be visible to others</string>
+    <string name="aboutme">About Me</string>
+    <string name="prepration_exam">Exams I am preparing for</string>
+    <string name="eduprepration_exam">Exams I teach</string>
+    <string name="prepration_sub">Subjects I study</string>
+    <string name="eduprepration_sub">Subjects I teach</string>
+    <string name="college">School/College/Institute</string>
+    <string name="teaching">Teaching Career</string>
+    <string name="coaching">Coaching</string>
+    <string name="certifications">Certification</string>
+    <string name="awards">Award</string>
+    <string name="internships">Internship/Research</string>
+    <string name="publication">Publication</string>
+    <string name="specialisation">Area of Specialisation</string>
+    <string name="logout">LogOut</string>
+    <string name="no_question">There are no questions here</string>
+    <string name="connect">Connect</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="valid_comment">Comment can’t be blank</string>
+    <string name="date_format">yyyyMMddhhmmss</string>
+    <string name="abcdef">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="year_month_date_time">20170101090000</string>
+    <string name="date">yyyyMMddhhmmss</string>
+    <string name="trouble">Having trouble?\n Connect via</string>
+    <string name="post_not_exist">Post does not exist</string>
+    <string name="comments1">Comments</string>
+
+
+    <string-array name="list_states">
+        <item>Select State</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telagana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Lakshadeep</item>
+        <item>Pondicherry</item>
+    </string-array>
+
+
+    <string-array name="list_edu">
+        <item>Select Class</item>
+        <item>Pre School</item>
+        <item>Nursery</item>
+        <item>LKG</item>
+        <item>UKG</item>
+        <item>Class-1</item>
+        <item>Class-2</item>
+        <item>Class-3</item>
+        <item>Class-4</item>
+        <item>Class-5</item>
+        <item>Class-6</item>
+        <item>Class-7</item>
+        <item>Class-8</item>
+        <item>Class-9</item>
+        <item>Class-10</item>
+        <item>Class-11</item>
+        <item>Class-12</item>
+        <item>Drop Year-1</item>
+        <item>Drop Year-2</item>
+        <item>Drop Year-3</item>
+        <item>SSC</item>
+        <item>HSC</item>
+        <item>Bachelors/ Diploma</item>
+        <item>Masters/Diploma</item>
+        <item>JRF</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="list_resource_type">
+        <item>Select Type</item>
+        <item>Admission</item>
+        <item>Books</item>
+        <item>Classroom learning</item>
+        <item>Counselling</item>
+        <item>Distance learning</item>
+        <item>e-Learning</item>
+        <item>Home Tuitions</item>
+        <item>Mentorship</item>
+        <item>Scholarship</item>
+        <item>Study material</item>
+        <item>Test Paper</item>
+        <item>Training session</item>
+    </string-array>
+
+    <string-array name="list_start_time">
+        <item>Start Time</item>
+        <item>0000 hrs</item>
+        <item>0030 hrs</item>
+        <item>0100 hrs</item>
+        <item>0130 hrs</item>
+        <item>0200 hrs</item>
+        <item>0230 hrs</item>
+        <item>0300 hrs</item>
+        <item>0330 hrs</item>
+        <item>0400 hrs</item>
+        <item>0430 hrs</item>
+        <item>0500 hrs</item>
+        <item>0530 hrs</item>
+        <item>0600 hrs</item>
+        <item>0630 hrs</item>
+        <item>0700 hrs</item>
+        <item>0730 hrs</item>
+        <item>0800 hrs</item>
+        <item>0830 hrs</item>
+        <item>0900 hrs</item>
+        <item>0930 hrs</item>
+        <item>1000 hrs</item>
+        <item>1030 hrs</item>
+        <item>1100 hrs</item>
+        <item>1130 hrs</item>
+        <item>1200 hrs</item>
+        <item>1230 hrs</item>
+        <item>1300 hrs</item>
+        <item>1330 hrs</item>
+        <item>1400 hrs</item>
+        <item>1430 hrs</item>
+        <item>1500 hrs</item>
+        <item>1530 hrs</item>
+        <item>1600 hrs</item>
+        <item>1630 hrs</item>
+        <item>1700 hrs</item>
+        <item>1730 hrs</item>
+        <item>1800 hrs</item>
+        <item>1830 hrs</item>
+        <item>1900 hrs</item>
+        <item>1930 hrs</item>
+        <item>2000 hrs</item>
+        <item>2030 hrs</item>
+        <item>2100 hrs</item>
+        <item>2130 hrs</item>
+        <item>2200 hrs</item>
+        <item>2230 hrs</item>
+        <item>2300 hrs</item>
+        <item>2330 hrs</item>
+        <item>Any</item>
+    </string-array>
+
+    <string-array name="list_end_time">
+        <item>End Time</item>
+        <item>0000 hrs</item>
+        <item>0030 hrs</item>
+        <item>0100 hrs</item>
+        <item>0130 hrs</item>
+        <item>0200 hrs</item>
+        <item>0230 hrs</item>
+        <item>0300 hrs</item>
+        <item>0330 hrs</item>
+        <item>0400 hrs</item>
+        <item>0430 hrs</item>
+        <item>0500 hrs</item>
+        <item>0530 hrs</item>
+        <item>0600 hrs</item>
+        <item>0630 hrs</item>
+        <item>0700 hrs</item>
+        <item>0730 hrs</item>
+        <item>0800 hrs</item>
+        <item>0830 hrs</item>
+        <item>0900 hrs</item>
+        <item>0930 hrs</item>
+        <item>1000 hrs</item>
+        <item>1030 hrs</item>
+        <item>1100 hrs</item>
+        <item>1130 hrs</item>
+        <item>1200 hrs</item>
+        <item>1230 hrs</item>
+        <item>1300 hrs</item>
+        <item>1330 hrs</item>
+        <item>1400 hrs</item>
+        <item>1430 hrs</item>
+        <item>1500 hrs</item>
+        <item>1530 hrs</item>
+        <item>1600 hrs</item>
+        <item>1630 hrs</item>
+        <item>1700 hrs</item>
+        <item>1730 hrs</item>
+        <item>1800 hrs</item>
+        <item>1830 hrs</item>
+        <item>1900 hrs</item>
+        <item>1930 hrs</item>
+        <item>2000 hrs</item>
+        <item>2030 hrs</item>
+        <item>2100 hrs</item>
+        <item>2130 hrs</item>
+        <item>2200 hrs</item>
+        <item>2230 hrs</item>
+        <item>2300 hrs</item>
+        <item>2330 hrs</item>
+        <item>Any</item>
+    </string-array>
+
+    <string-array name="list_fees_type">
+        <item>Select fee type</item>
+        <item>Session</item>
+        <item>Unit</item>
+        <item>Month</item>
+        <item>Year</item>
+        <item>Book</item>
+    </string-array>
+
+    <string-array name="list_fees_category">
+        <item>Select fees type</item>
+        <item>greater than</item>
+        <item>less than</item>
+        <item>equal to</item>
+    </string-array>
+
+
+    <string-array name="list_colleges">
+        <item>AIIMS Bhopal</item>
+        <item>AIIMS Bhubaneshwar</item>
+        <item>AIIMS Delhi</item>
+        <item>AIIMS Jodhpur</item>
+        <item>AIIMS Patna</item>
+        <item>AIIMS Raipur</item>
+        <item>AIIMS Rishikesh</item>
+        <item>Academy of Scientific &amp;amp;amp;amp; Innovative Research, Tamil Nadu</item>
+        <item>Acharya Narendra Dev College</item>
+        <item>Aditi Mahavidyalaya</item>
+        <item>Aligarh Muslim University</item>
+        <item>Amity International Business School</item>
+        <item>Amity University, Jaipur</item>
+        <item>Amrita Institute of Medical Science &amp;amp;amp;amp; Research Institute (AIMS), Kochi</item>
+        <item>Armed Forces Medical College</item>
+        <item>Aryabhatta College</item>
+        <item>Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior</item>
+        <item>Atma Ram Sanatan Dharma College</item>
+        <item>Ayurvedic &amp;amp;amp;amp; Unani Tibbia College</item>
+        <item>B.J. Medical College and Sassoon Hospital, Pune</item>
+        <item>B.M. Medical College, Pune</item>
+        <item>BHU</item>
+        <item>Bangalore Medical College</item>
+        <item>Bhagini Nivedita College</item>
+        <item>Bharati College</item>
+        <item>Bhaskraycharya College of Applied Sciences</item>
+        <item>Bhim Rao Ambedkar College</item>
+        <item>Brihan Maharashtra College of Commerce, Pune</item>
+        <item>Calicut Medical College</item>
+        <item>Chanakya National Law University</item>
+        <item>Christ University, Bangalore</item>
+        <item>Christian Medical College, Ludhiana</item>
+        <item>Christian Medical College, Vellore</item>
+        <item>College of Arts</item>
+        <item>College of Vocational Studies</item>
+        <item>Daulat Ram College</item>
+        <item>Deen Dayal Upadhayaya College</item>
+        <item>Delhi College of Arts &amp;amp;amp;amp; Commerce</item>
+        <item>Delhi Institute of Pharmaceutical Sciences and Research</item>
+        <item>Department of Business Administration - SRM University, Chennai</item>
+        <item>Deshbandhu college</item>
+        <item>Dr. B. R. Ambedkar National Institute of Technology Jalandhar</item>
+        <item>Dyal Singh College</item>
+        <item>Ethiraj College for Women, Chennai</item>
+        <item>Faculty of Management, Banasthali University, Jaipur</item>
+        <item>G.S.V.M. Medical College, Kanpur</item>
+        <item>Gargi College</item>
+        <item>Goenka College of Commerce and Business Administration</item>
+        <item>Govt. Medical College, Jammu</item>
+        <item>Grant Medical College, Mumbai</item>
+        <item>Gujarat National Law University</item>
+        <item>Guru Gobind Singh Indraprasth University</item>
+        <item>H.R. College of Commerce &amp;amp;amp;amp; Economics</item>
+        <item>Hans Raj College</item>
+        <item>Hidayatullah National Law University</item>
+        <item>Hindu College</item>
+        <item>IIM Ahmedabad</item>
+        <item>IIM Amritsar</item>
+        <item>IIM Bangalore</item>
+        <item>IIM Bodhgaya</item>
+        <item>IIM Calcutta</item>
+        <item>IIM Indore</item>
+        <item>IIM Jammu</item>
+        <item>IIM Kashipur</item>
+        <item>IIM Kozhikode</item>
+        <item>IIM Lucknow</item>
+        <item>IIM Nagpur</item>
+        <item>IIM Raipur</item>
+        <item>IIM Ranchi</item>
+        <item>IIM Rohtak</item>
+        <item>IIM Sambalpur</item>
+        <item>IIM Shillong</item>
+        <item>IIM Sirmaur</item>
+        <item>IIM Trichy</item>
+        <item>IIM Udaipur</item>
+        <item>IIM Visakhapatnam</item>
+        <item>IISER Bhopal</item>
+        <item>IISER Kolkata</item>
+        <item>IISER Mohali</item>
+        <item>IISER Pune</item>
+        <item>IISER Thiruvananthapuram</item>
+        <item>IIT BHU</item>
+        <item>IIT Bhubneshwar</item>
+        <item>IIT Chennai</item>
+        <item>IIT Delhi</item>
+        <item>IIT Gandhi Nagar</item>
+        <item>IIT Guwahati</item>
+        <item>IIT Hyderabad</item>
+        <item>IIT Indore</item>
+        <item>IIT Jodhpur</item>
+        <item>IIT Kanpur</item>
+        <item>IIT Kharagpur</item>
+        <item>IIT Mandi</item>
+        <item>IIT Mumbai</item>
+        <item>IIT Patna</item>
+        <item>IIT Roorkee</item>
+        <item>IIT Ropar</item>
+        <item>Indian Institute of Engineering Science and Technology, Shibpur </item>
+        <item>Indian Institute of Information Technology &amp;amp;amp;amp; Manufacturing, Jabalpur</item>
+        <item>Indian Institute of Information Technology, Allahabad</item>
+        <item>Indian Institute of Information Technology, Design &amp;amp;amp;amp; Manufacturing, Kancheepuram, </item>
+        <item>Indian Institute of Management &amp;amp;amp;amp; Commerce, Hyderabad</item>
+        <item>Indian Institute of Science Bengaluru</item>
+        <item>Indian School of Management &amp;amp;amp;amp; Studies</item>
+        <item>Indian Statistical Institute, Kolkata</item>
+        <item>Indira Gandhi Institute of Physical Education and Sports Sciences</item>
+        <item>Indira Gandhi Medical College</item>
+        <item>Indraprastha College for Women</item>
+        <item>Institute of Home Economics</item>
+        <item>Institute of Management Studies, Noida</item>
+        <item>Institute of Medical Sciences, Varanasi</item>
+        <item>Institute of Post Graduate Medical Education &amp;amp;amp;amp; Research, Kolkata</item>
+        <item>JIPMER College, Puducherry</item>
+        <item>Janki Devi Memorial College</item>
+        <item>Jawaharlal Institute of Post Graduate Medical Education &amp;amp;amp;amp; Research</item>
+        <item>Jesus and Mary College</item>
+        <item>K. J. Somaiya College of Arts and Commerce</item>
+        <item>K.P.B. Hinduja College of Commerce</item>
+        <item>Kalindi College</item>
+        <item>Kamala Nehru College</item>
+        <item>Kasturba Medical College, Manipal</item>
+        <item>Keshav Mahavidyalaya</item>
+        <item>King George Medical College, CMM Medical University, Lucknow</item>
+        <item>Kirori Mal College</item>
+        <item>Lady Hardinge Medical College</item>
+        <item>Lady Hardinge Medical College (LHMC) </item>
+        <item>Lady Irwin College</item>
+        <item>Lady Shri Ram College for Women</item>
+        <item>Lakshmi Bai College</item>
+        <item>Loyola College</item>
+        <item>Loyola College, Chennai</item>
+        <item>M.O.P. Vaishnav College for Women (Autonomous) </item>
+        <item>M.S. Ramaiah College of Arts, Science and Commerce</item>
+        <item>MS Ramaiah Medical College, Bangalore</item>
+        <item>Madras Christian College</item>
+        <item>Madras Medical College</item>
+        <item>Maharaja Agrasen College</item>
+        <item>Maharishi Valmiki College of Education</item>
+        <item>Mahatma Gandhi Institute of Medical Sciences (M.G.I.M.S.), Wardha, Maharastra</item>
+        <item>Maitreyi College</item>
+        <item>Malaviya National Institute of Technology, Jaipur</item>
+        <item>Mata Sundri College for Women</item>
+        <item>Maulana Azad Institute of Dental Science</item>
+        <item>Maulana Azad Medical College</item>
+        <item>Maulana Azad Medical College (MAMC), Delhi</item>
+        <item>Maulana Azad National Institute of Technology, Bhopa</item>l
+        <item>Medical College Kolkata</item>
+        <item>Medical College and Hospital, Kolkata</item>
+        <item>Miranda House</item>
+        <item>Motilal Nehru College</item>
+        <item>Motilal Nehru Institute of Technology, Allahabad</item>
+        <item>Motilal Nehru National Institute of Technology Allahabad</item>
+        <item>Mount Carmel College, Bangalore</item>
+        <item>NALSAR University of Law</item>
+        <item>NID Ahmedabad</item>
+        <item>NID Bangalore</item>
+        <item>NID PG Campus Gandhinagar</item>
+        <item>NIFT Bangalore</item>
+        <item>NIFT Bhopal</item>
+        <item>NIFT Bhubaneswar</item>
+        <item>NIFT Chennai</item>
+        <item>NIFT Delhi</item>
+        <item>NIFT Gandhinagar</item>
+        <item>NIFT Hyderabad</item>
+        <item>NIFT Jodhpur</item>
+        <item>NIFT Kangra</item>
+        <item>NIFT Kannur</item>
+        <item>NIFT Kolkata</item>
+        <item>NIFT Mumbai</item>
+        <item>NIFT Patna</item>
+        <item>NIFT Rae Bareli</item>
+        <item>NIFT Shillong</item>
+        <item>NIIFT</item>
+        <item>NIT Agartala</item>
+        <item>NIT Andhra Pradesh</item>
+        <item>NIT Arunachal Pradesh</item>
+        <item>NIT Calicut</item>
+        <item>NIT Delhi</item>
+        <item> NIT Durgapur</item>
+        <item>NIT Goa</item>
+        <item>NIT Hamirpur</item>
+        <item>NIT Jamshedpur</item>
+        <item>NIT Kurukshetra</item>
+        <item>NIT Manipur</item>
+        <item>NIT Meghalaya</item>
+        <item>NIT Mizoram</item>
+        <item>NIT Nagaland</item>
+        <item>NIT Patna</item>
+        <item>NIT Pondicherry</item>
+        <item>NIT Rourkela</item>
+        <item>NIT Sikkim</item>
+        <item>NIT Silchar</item>
+        <item>NIT Srinagar</item>
+        <item>NIT Surathkal</item>
+        <item>NIT Trichy</item>
+        <item>NIT Uttarakhand</item>
+        <item>NIT Warangal</item>
+        <item>Narsee Monjee College of Commerce and Economics, Mumbai</item>
+        <item>National Institute of Pharmaceutical, Educational and Research, Mohali</item>
+        <item>National Law Institute University</item>
+        <item>National Law School of India University (NLSIU)</item>
+        <item>National Law University</item>
+        <item>National Law University &amp;amp;amp;amp; Judicial Academy</item>
+        <item>National University of Advanced Legal Studies</item>
+        <item>National University of Study &amp;amp;amp;amp; Research in Law</item>
+        <item>Nehru Homeopathic Medical College</item>
+        <item>Netaji Subhas Institute of Technology</item>
+        <item>Nil Ratan Sarkar Medical College and Hospital (NRS), Kolkata</item>
+        <item>Nizam College, Hyderabad</item>
+        <item>Osmania Medical College, Hyderabad</item>
+        <item>Pannalal Girdharlal Dayanand Anglo Vaidic College</item>
+        <item>Periyar University</item>
+        <item>Presidency College, Chennai</item>
+        <item>Pt. Bhagwat Dayal Sharma Post Grd. Inst. of Medical Sciences (P.G.I.M.S.) Rohtak</item>
+        <item>R.A. Podar College of Commerce &amp;amp;amp;amp; Economics, Mumbai</item>
+        <item>Rajdhani College</item>
+        <item>Rajiv Gandhi Institute of Petroleum Technology, Rae Bareli</item>
+        <item>Rajiv Gandhi National Instiute of Youth Development, Sriperumbudur</item>
+        <item>Rajiv Gandhi National University of Law</item>
+        <item>Rajkumari Amrit Kaur College of Nursing</item>
+        <item>Ram Lal Anand College</item>
+        <item>Ram Manohar Lohiya National Law University</item>
+        <item>Ramanujan College</item>
+        <item>Ramjas College, New Delhi</item>
+        <item>Sardar Vallabhbhai National Institute of Technology Surat</item>
+        <item>Satyawati College</item>
+        <item>School of Open Learning</item>
+        <item>School of Planning &amp;amp;amp;amp; Architecture Bhopal</item>
+        <item>School of Planning &amp;amp;amp;amp; Architecture Vijaywada</item>
+        <item>School of Planning &amp;amp;amp;amp; Architecture, New Delhi</item>
+        <item>Seshadripuram College</item>
+        <item>Seth G.S. Medical College, Mumbai</item>
+        <item>Shaheed Bhagat Singh College</item>
+        <item>Shaheed Rajguru College of Applied Sciences for Women</item>
+        <item>Shaheed Sukhdev College of Business Studies</item>
+        <item>Shahid Bhagat Singh College</item>
+        <item>Shivaji College</item>
+        <item>Shri Ram College of Commerce</item>
+        <item>Shyam Lal College</item>
+        <item>Shyama Prasad Mukherji College</item>
+        <item>Sree Chitra Tirunal Institute for Medical Sciences and Technology, Thiruvananthapuram</item>
+        <item>Sri Aurobindo College</item>
+        <item>Sri Aurobindo College Evening</item>
+        <item>Sri Bhagawan Mahaveer Jain College</item>
+        <item>Sri Guru Gobind Singh College of Commerce</item>
+        <item>Sri Guru Nanak Dev Khalsa College</item>
+        <item>Sri Guru Tegh Bahadur Khalsa College</item>
+        <item>Sri Ramachandra Medical College and Research Institute, Chennai</item>
+        <item>Sri Venkateswara College</item>
+        <item>St. Francis College for Women</item>
+        <item>St. John’s Medical College, Bangalore</item>
+        <item>St. Jones Medical College, Banglore</item>
+        <item>St. Joseph’s College of Commerce, Bangalore</item>
+        <item>St. Stephen\'s College</item>
+        <item>St. Xavier’s College, Mumbai</item>
+        <item>Stanley Medical College (SMC), Chennai</item>
+        <item>Stella Maris College</item>
+        <item>Stella Maris College, Chennai</item>
+        <item>Swami Shraddhanand College</item>
+        <item>Symbiosis</item>
+        <item>Symbiosis College of Arts and Commerce, Pune</item>
+        <item>The Institute of Chartered Accountants of India (ICAI)</item>
+        <item>Tirumala Tirupati’s Devasthanam’s Sri Venkateswara College</item>
+        <item>University College of Medical Science &amp;amp;amp;amp; Research Centre, new Delhi</item>
+        <item>University College of Medical Sciences</item>
+        <item>Vallabhbhai Patel Chest Institute</item>
+        <item>Visvesvaraya National Institute of Technology Nagpur</item>
+        <item>Vivekananda College</item>
+        <item>West Bengal National University of Juridical Sciences</item>
+        <item>Women’s Christian College, Chennai</item>
+        <item>Zakir Husain Delhi CollegeRajdhani College</item>
+
+    </string-array>
+
+
+    <string-array name="list_schools">
+
+        <item>A. G. High School</item>
+        <item>A.G.R.M Higher Secondary School, Vallikunnam</item>
+        <item>A.P.T.W.R School, Eturnagaram</item>
+        <item>A.R.L.M. Matriculation Higher Secondary School, Cuddalore</item>
+        <item>AKJM Public School, Kanjirappally, Kottayam</item>
+        <item>AKT Academy Matriculation Higher Secondary School, Kallakurichi</item>
+        <item>Abhyas School, Thorrur, Warangal</item>
+        <item>Abhyasa Residential Public School, Toopran, Medak District</item>
+        <item>Aditya Academy (Senior Secondary) </item>
+        <item>Agrasen Inter College, Lukerganj, Allahabad</item>
+        <item>Ahmedabad International School</item>
+        <item>Air Force School, Kanpur</item>
+        <item>Aiyas CBSE School, Karaikal</item>
+        <item>Aiyas Matriculation Higher Secondary School, Thirukkalachery, Nagapattinam District</item>
+        <item>Aji Senior Secondary School, Uppala</item>
+        <item>Akbarpur Girls Inter College</item>
+        <item>Akbarpur Inter College</item>
+        <item>Akshararbol International School, Chennai, T-nagar</item>
+        <item>Alfred High School, Bhuj</item>
+        <item>Alfred High School, Rajkot</item>
+        <item>Alpine Public School, Nalagarh, Himachal Pradesh</item>
+        <item>American College Higher Secondary School, Madurai</item>
+        <item>American International School Chennai</item>
+        <item>Amity International School</item>
+        <item>Amity International, Noida</item>
+        <item>Anand Bhawan School, Barabanki</item>
+        <item>Andal Mahabir High School</item>
+        <item>Andhra Association School</item>
+        <item>Andhra Mahila Sabha School of Informatics, Hyderabad</item>
+        <item>Andhra Pradesh Residential School, Sarvail, Nalgonda</item>
+        <item>Anjarakandy Higher Secondary School</item>
+        <item>Annie Besant School Allahabad</item>
+        <item>Ansar English School, Thrissur</item>
+        <item>Apeejay School Kolkata</item>
+        <item>Apeejay School, Noida</item>
+        <item>Apeejay School, Sector 15, Faridabad</item>
+        <item>Apollo International School, Sonipat</item>
+        <item>Arambagh Girls High School</item>
+        <item>Ark International School, Begusarai</item>
+        <item>Army Public School Noida</item>
+        <item>Army Public School, Dagshai</item>
+        <item>Army Public School, Kolkata</item>
+        <item>Army Public School, Mhow</item>
+        <item>Arya Bharati High School, Omallur</item>
+        <item>Aryaman Vikram Birla Institute of Learning, Haldwani</item>
+        <item>Asafia School, Hyderabad</item>
+        <item>Asansol Arunoday High School</item>
+        <item>Ashok Hall Girls\' Residential School, Ranikhet</item>
+        <item>Asian Academy of Film &amp;amp;amp; Television</item>
+        <item>Assagao Union High School</item>
+        <item>Assisi Convent School</item>
+        <item>Atomic Energy Central School</item>
+        <item>Auckland School Shimla</item>
+        <item>Auxilium Convent School</item>
+        <item>Auxilium ISC School, Kottiyam</item>
+        <item>B N S D Shiksha Niketan</item>
+        <item>B.L. Indo Anglian Public School, Aurangabad</item>
+        <item>BEM High School, Parappanangadi</item>
+        <item>BMM English Medium School, Pampady</item>
+        <item>BSF Senior Secondary School, Jammu</item>
+        <item>Bahadurpur High School</item>
+        <item>Bal Bharati Public School</item>
+        <item>Balavihar Matriculation Higher Secondary School, Panruti</item>
+        <item>Ballygunge Government High School</item>
+        <item>Balutungi High School</item>
+        <item>Bandel Vidyamandir High School</item>
+        <item>Bankura Zilla School</item>
+        <item>Bansberia Ganges High School</item>
+        <item>Bapuji Memorial School, Kanyakumari</item>
+        <item>Barasat Peary Charan Sarkar Government High School</item>
+        <item>Baroda High School, Alkapuri</item>
+        <item>Barrackpore Government High School</item>
+        <item>Baruipur High School</item>
+        <item>Basel Evangelical Mission Parsi High School, Thalassery</item>
+        <item>Bastar High School</item>
+        <item>Best High School (Ahmedabad) </item>
+        <item>Bethany Convent School, Allahabad</item>
+        <item>Bethel Mission School, Champhai</item>
+        <item>Bethlahem Matric School, Karungal</item>
+        <item>Bharath English High School</item>
+        <item>Bharathi Matriculation Higher Secondary School, Kallakurichi</item>
+        <item>Bharathiar Government Higher Secondary School, Veeravanallur</item>
+        <item>Bharatiya Vidya Bhavan</item>
+        <item>Bharti International Convent School, Gurgaon</item>
+        <item>Bhartiya Public Senior Secondary School, Joginder Nagar</item>
+        <item>Bhartiyam International School, Rudrapur</item>
+        <item>Bhavan Vidyalaya, Chandigarh</item>
+        <item>Bhavan\'s Tripura Vidya Mandir</item>
+        <item>Bhogpur K. M. High School</item>
+        <item>Bidhannagar Municipal School</item>
+        <item>Billabong High International School Noida</item>
+        <item>Birla High School</item>
+        <item>Birla Vidya Mandir, Nainital</item>
+        <item>Bishop Cotton School</item>
+        <item>Bishop Moore Vidyapith, Cherthala</item>
+        <item>Bishop Westcott Boys\' School, Ranchi</item>
+        <item>Bivha International School</item>
+        <item>Bokaro Public School</item>
+        <item>Bongaon High School</item>
+        <item>Boys\' High School &amp;amp;amp; College, Allahabad</item>
+        <item>Brightlands School, Dehradun</item>
+        <item>Brook International School, Sasthamcotta</item>
+        <item>Burdwan C.M.S High School</item>
+        <item>Burdwan Municipal Girls\' High School</item>
+        <item>Burdwan Municipal High School</item>
+        <item>Burn Hall School, Srinagar</item>
+        <item>C.D.Girls Inter College</item>
+        <item>C.P.L. Public Inter College, Nagram, Gosainganj, Lucknow</item>
+        <item>CHIREC International, Hyderabad</item>
+        <item>CVKM Higher Secondary School</item>
+        <item>Calcutta Boys\' School</item>
+        <item>Calcutta Girls High School</item>
+        <item>Calcutta International School</item>
+        <item>Calcutta Public School</item>
+        <item>Cambridge School Noida</item>
+        <item>Campion Anglo-Indian Higher Secondary School, Trichy</item>
+        <item>Campion School Bhopal, Madhya Pradesh</item>
+        <item>Campus School CCS HAU, Hisar</item>
+        <item>Campus School, Pantnagar</item>
+        <item>Carmel Convent School, Sector 7D, Faridabad</item>
+        <item>Carmel High School, Nagercoil</item>
+        <item>Carmel Higher Secondary School, Nagercoil</item>
+        <item>Carmel School Digwadih, Dhanbad</item>
+        <item>Carmel School, Kolkata</item>
+        <item>Cathedral School of Lucknow</item>
+        <item>Central Academy Senior Secondary School</item>
+        <item>Central Hindu School, Varanasi</item>
+        <item>Central Modern School</item>
+        <item>Chail Military School</item>
+        <item>Chakdwipa High School</item>
+        <item>Chaldean Syrian Higher Secondary School, Thrissur</item>
+        <item>Chandigarh Baptist School</item>
+        <item>Chasnalla Academy, Chasnalla</item>
+        <item>Chatra Nandalal Institution</item>
+        <item>Chennai Public School, Chennai</item>
+        <item>Children\'s Academy, Mall Avenue</item>
+        <item>Chinmaya Vidyalaya</item>
+        <item>Chinmaya Vidyalaya Nauni</item>
+        <item>Chinmaya Vidyalaya, Kozhikode</item>
+        <item>Chittaranjan High School</item>
+        <item>Christ Church Boys Senior Secondary School</item>
+        <item>Christ School, Poonch</item>
+        <item>Christhu Jyothi Matric Higher Secondary School, Erode</item>
+        <item>Christian Girls\' Higher Secondary School, Tura</item>
+        <item>City Montessori School</item>
+        <item>City Vocational Public School</item>
+        <item>Colvin Taluqdars\' College</item>
+        <item>Confluence World School, Rudrapur</item>
+        <item>Convent of Jesus and Mary, Waverley, Mussoorie</item>
+        <item>Crescent National High School (Gujarat) </item>
+        <item>D.A.V. Centenary Public School, Mandi</item>
+        <item>DAV Centenary Public School, Bhawanathpur Township</item>
+        <item>DAV Public School</item>
+        <item>DAV Public School</item>
+        <item>DAV Public School, Bhillai</item>
+        <item>DAV Public School, Nandini Mines</item>
+        <item>DAV Public School, Rajhara, Distt-Balod</item>
+        <item>DLF Public School, Sahibabad</item>
+        <item>DPS Barra</item>
+        <item>Dalhousie Hilltop School, Dalhousie</item>
+        <item>Dasmesh Public School, Faridkot</item>
+        <item>Dayanand Anglo-Vedic Public School</item>
+        <item>De Britto Higher Secondary School, Devakottai</item>
+        <item>De Nobili School CTPS, Bokaro, Chandrapura</item>
+        <item>De Nobili School, Bhuli, Dhanbad</item>
+        <item>De Nobili School, CMRI, Dhanbad</item>
+        <item>De Nobili School, FRI, Digwadih, Dhanbad</item>
+        <item>De Nobili School, Maithon, Dhanbad</item>
+        <item>De Nobili School, Mugma, Dhanbad</item>
+        <item>De Nobili School, Sijua</item>
+        <item>De Nobili School, Sindri, Dhanbad</item>
+        <item>Deep Memorial Public School, Ghaziabad, Etah</item>
+        <item>Delhi Public School</item>
+        <item>Delhi Public School</item>
+        <item>Delhi Public School Ghaziabad</item>
+        <item>Delhi Public School Ghaziabad</item>
+        <item>Delhi Public School, Azaad Nagar</item>
+        <item>Delhi Public School, Bathinda</item>
+        <item>Delhi Public School, Bhagalpur</item>
+        <item>Delhi Public School, Bhopal</item>
+        <item>Delhi Public School, Bilaspur</item>
+        <item>Delhi Public School, Bokaro</item>
+        <item>Delhi Public School, Bopal</item>
+        <item>Delhi Public School, Chandigarh</item>
+        <item>Delhi Public School, Dhanbad</item>
+        <item>Delhi Public School, Durg</item>
+        <item>Delhi Public School, Haldwani</item>
+        <item>Delhi Public School, Kalyanpur,Kanpur</item>
+        <item>Delhi Public School, Kidwai Nagar</item>
+        <item>Delhi Public School, Ranchi</item>
+        <item>Delhi Public School, Sector 19, Faridabad</item>
+        <item>Delhi Public School, Servodaya Nagar</item>
+        <item>Delhi Public School, Srinagar</item>
+        <item>Diwan-Ballubhai School</item>
+        <item>Domohani Kelejora High School</item>
+        <item>Domohani Kelejora High School</item>
+        <item>Don Bosco High School, Guwahati</item>
+        <item>Don Bosco High School, Imphal</item>
+        <item>Don Bosco Higher Secondary School</item>
+        <item>Don Bosco School, Bandel</item>
+        <item>Don Bosco School, Liluah</item>
+        <item>Don Bosco School, Park Circus</item>
+        <item>Don Bosco Technical School, Shillong</item>
+        <item>Doon International School (Ahmedabad)</item>
+        <item>Doon International School, Palia Kalan</item>
+        <item>Dr A.G.M\'s City School, Srinagar</item>
+        <item>Dr. Graham\'s Homes, Kalimpong</item>
+        <item>Dr. S. Hussain Zaheer Memorial High School</item>
+        <item>Dreamland School, Makhla</item>
+        <item>Druk White Lotus School, Shey, Ladakh</item>
+        <item>Eastwood International School, Mullanpur Dakha</item>
+        <item>Edith Douglas Higher Secondary School</item>
+        <item>Eicher School, Sector 46, Faridabad</item>
+        <item>Era International School, Anantapur</item>
+        <item>Faculty Higher Secondary School, Amingaon</item>
+        <item>Further information: List of schools in Bangalore</item>
+        <item>G D Birla Memorial School, Ranikhet</item>
+        <item>G V School, Chidambaram</item>
+        <item>G. K. Shetty Hindu Vidyalaya Matriculation Higher Secondary School</item>
+        <item>G.A Inter School, Hajipur</item>
+        <item>GRG Matriculation Higher Secondary School, Coimbatore</item>
+        <item>Galuapur Inter College</item>
+        <item>Gandhi Ashram School</item>
+        <item>Gandhi Nagar Public School Moradabad</item>
+        <item>Gangarampur Girls\' High School</item>
+        <item>Gangarampur High School</item>
+        <item>Garden High School</item>
+        <item>Girls\' High School and College, Allahabad</item>
+        <item>Gita Niketan Awasiya Vidyalaya, Kurukshetra</item>
+        <item>Gitanjali Senior School, Begumpet</item>
+        <item>Global Public School, Cochin</item>
+        <item>Global Wisdom International School, Chejerla</item>
+        <item>Goethals Memorial School, Kurseong</item>
+        <item>Goodmorning Grammar High School, Karimnagar</item>
+        <item>Government Higher Secondary School, Bilat</item>
+        <item>Government Higher Secondary School, Peruvilai</item>
+        <item>Government Higher Secondary School, Serchhip</item>
+        <item>Government Inter College Noida</item>
+        <item>Government Secondary School, Rani</item>
+        <item>Govt. Ganapath High School for Boys</item>
+        <item>Gowtham Model School, Hyderabad</item>
+        <item>Grace Ling Liang English School</item>
+        <item>Green Gables International School, Hyderabad</item>
+        <item>Green Valley Educational Institute</item>
+        <item>Guru Teg Bahadur Khalsa Senior Secondary School, Malout</item>
+        <item>Guru Teg Bahadur Public School Durgapur</item>
+        <item>Gurugram Public School, Gurgaon</item>
+        <item>Hajee Meera Academy</item>
+        <item>Hamai English High School</item>
+        <item>Hardayal Public School, Bahadurgarh</item>
+        <item>Hare School</item>
+        <item>Hari Sri Vidya Nidhi School</item>
+        <item>Hartmann College, Bareilly</item>
+        <item>Him Academy Public School, Hamirpur</item>
+        <item>Himalaya International School, Ratlam</item>
+        <item>Hindi Higher Secondary School</item>
+        <item>Hindu School</item>
+        <item>Hindu Senior Secondary School, Indira Nagar</item>
+        <item>Hindu Vidyapith</item>
+        <item>Holy Angels\' ISC School, Trivandrum</item>
+        <item>Holy Child School Guwahati</item>
+        <item>Holy Cross School, Agartala</item>
+        <item>Holy Cross School, Ballia</item>
+        <item>Holy Cross Senior Secondary School Kapa</item>
+        <item>Home Missions School, Aizawl</item>
+        <item>Hooghly Collegiate School</item>
+        <item>Howrah Ramkrishnapur High School</item>
+        <item>Huddard High School, Kanpur</item>
+        <item>Hyderabad Public School</item>
+        <item>Hyderabad Public School, Kadapa</item>
+        <item>Ideal English School</item>
+        <item>Immanuel School Zunheboto</item>
+        <item>Independent Golden Jubilee Government Higher Secondary School, Pasighat</item>
+        <item>Indian Army Public Schools</item>
+        <item>Indus International School-Hyderabad</item>
+        <item>Indus World School, Mandi</item>
+        <item>Infant Jesus Anglo-Indian Higher Secondary School, Kollam</item>
+        <item>Infant Jesus School, Saharanpur</item>
+        <item>International Community School and Junior College, Kotagiri</item>
+        <item>International Sahaja Public School</item>
+        <item>International School of Hyderabad</item>
+        <item>Isabella School, Siliguri</item>
+        <item>Jadavpur Vidyapith</item>
+        <item>Jagacha High School</item>
+        <item>Jagadbandhu Institution</item>
+        <item>Jain International Residential School, Bangalore</item>
+        <item>Jalpaiguri Zilla School</item>
+        <item>Jawahar Navodaya Vidyalaya</item>
+        <item>Jawahar Navodaya Vidyalaya</item>
+        <item>Jawahar Navodaya Vidyalaya Kanpur</item>
+        <item>Jawahar Navodaya Vidyalaya Kanpur Dehat</item>
+        <item>Jawahar Navodaya Vidyalaya, Basdei</item>
+        <item>Jawahar Navodaya Vidyalaya, Dhalai Tripura</item>
+        <item>Jawahar Navodaya Vidyalaya, Pailapool</item>
+        <item>Jawahar Navodaya Vidyalaya, Pfukhro Mao</item>
+        <item>Jawahar Navodaya Vidyalaya, Theog</item>
+        <item>Jawahar Navodaya Vidyalaya, West Champaran</item>
+        <item>Jawahar Vidya Mandir, Shyamali, Ranchi</item>
+        <item>Jayant Academy, Raxaul</item>
+        <item>Jenkins School</item>
+        <item>Jhajha Public School, Jhajha</item>
+        <item>Jhantipahari High School</item>
+        <item>Jhargram Kumud Kumari Institution</item>
+        <item>Jodhpur Park Boys School</item>
+        <item>John Joseph Murphy Memorial Higher Secondary School, Yendayar</item>
+        <item>John Paul Higher Secondary School, Dindigul</item>
+        <item>Johnstone Higher Secondary School, Imphal</item>
+        <item>Jorhat Govt. Boys\' H.S and M.P. School, Jorhat</item>
+        <item>Jovial High School, Yacharam</item>
+        <item>Jugal Devi Saraswati Vidya Mandir, Kanpur</item>
+        <item>Julien Day School</item>
+        <item>Jyothi Central High School, Ekma</item>
+        <item>KB DAV Senior Secondary Public School</item>
+        <item>KC International School</item>
+        <item>Kaigram High School</item>
+        <item>Kakatiya High School, Nizamabad</item>
+        <item>Kalikrishna Girls\' High School</item>
+        <item>Kanailal Vidyamandir</item>
+        <item>Kanduah Mahakali High School</item>
+        <item>Katwa Kashiram Das Institution</item>
+        <item>Kendriya Vidyalaya</item>
+        <item>Kendriya Vidyalaya 9th Mile, Guwahati</item>
+        <item>Kendriya Vidyalaya Guna, Madhya Pradesh</item>
+        <item>Kendriya Vidyalaya IIT Kanpur</item>
+        <item>Kendriya Vidyalaya Maligaon</item>
+        <item>Kendriya Vidyalaya No. 1</item>
+        <item>Kendriya Vidyalaya No. 1, Ishapore</item>
+        <item>Kendriya Vidyalaya No. 2</item>
+        <item>Kendriya Vidyalaya No. 3</item>
+        <item>Kendriya Vidyalaya No. 4</item>
+        <item>Kendriya Vidyalaya No. 5</item>
+        <item>Kendriya Vidyalaya No. Gwalior</item>
+        <item>Kendriya Vidyalaya Shivpuri, Madhya Pradesh</item>
+        <item>Kendriya Vidyalaya, Dahi Chowki Unnao</item>
+        <item>Kendriya Vidyalaya, Mati</item>
+        <item>Kendriya Vidyalaya, Pangode</item>
+        <item>Khaitan Public School</item>
+        <item>Khaitan Public School</item>
+        <item>Khowai Government Higher Secondary School</item>
+        <item>Khrist Raja High School, Bettiah</item>
+        <item>Kiddy\'s Corner School, Gwalior</item>
+        <item>Kings Matriculation Higher Secondary School, Madipakkam</item>
+        <item>Krishi Public School, Sathupalli</item>
+        <item>Krishnagar Collegiate School</item>
+        <item>Krishnath College School, Berhampore</item>
+        <item>Krist Raja High School</item>
+        <item>La Foundation School, Sangrur</item>
+        <item>La Martiniere Calcutta</item>
+        <item>La Martiniere College</item>
+        <item>Laban Hrad Vidyapith</item>
+        <item>Lakshanika International School</item>
+        <item>Lakshmi School, Madurai</item>
+        <item>Lakshmipat Singhania Academy</item>
+        <item>Lal Ded Memorial School</item>
+        <item>Laurels International School, Allahabad</item>
+        <item>Lawrence School, Sanawar, Kasauli</item>
+        <item>Lemer Public School</item>
+        <item>Lisieux Matriculation Higher Secondary School, Coimbatore</item>
+        <item>Little Angels High School, Gwalior</item>
+        <item>Little Angels High School, Srinagar</item>
+        <item>Little Angels Public School, Jaggayyapeta</item>
+        <item>Little Bells E.M High School, Nellore</item>
+        <item>Little Flower High School, Hyderabad</item>
+        <item>Little Flower School</item>
+        <item>Little Flower of Jesus High School</item>
+        <item>Little Lights Free Education High School, Gannavaram</item>
+        <item>Loreto Convent</item>
+        <item>Loreto Convent</item>
+        <item>Loreto Convent, Asansol</item>
+        <item>Loreto Convent, Tara Hall, Shimla</item>
+        <item>Loreto Schools, Kolkata</item>
+        <item>Loyola Academy, Maraimalai Nagar, Chennai</item>
+        <item>Loyola High School</item>
+        <item>Loyola High School, Hindupur</item>
+        <item>Loyola High School, KD Peta</item>
+        <item>Loyola High School, Karimnagar</item>
+        <item>Loyola High School, Vinukonda</item>
+        <item>Loyola Higher Secondary School, Kuppayanallur</item>
+        <item>Loyola Pre-University College, Manvi, Raichur</item>
+        <item>Loyola Public School, Guntur</item>
+        <item>Loyola School &amp;amp;amp; PU College, Mundgod</item>
+        <item>Loyola School, Jamshedpur</item>
+        <item>Loyola School, Trivandrum</item>
+        <item>Loyola Yomiuri School, Bijapur</item>
+        <item>Lucknow Public School, multiple locations</item>
+        <item>Lycée français de Pondichéry</item>
+        <item>M P T High School, Jhanjharpur</item>
+        <item>M. C. Kejriwal Vidyapeeth, Howrah</item>
+        <item>MCTM Chidambaram Chettyar International IB School, Chennai</item>
+        <item>MMHSS Thalassery, Thalassery</item>
+        <item>MSP Solai Nadar Memorial Higher Secondary school, Dindigul</item>
+        <item>Mahadevi Birla Girls Higher Secondary School</item>
+        <item>Mahajana High School, Erode</item>
+        <item>Maharajapuram Nagammal Rajaiah Desiya Girls Higher Secondary School</item>
+        <item>Maharishi Vidya Mandir</item>
+        <item>Mahatma Gandhi International School Ahmedabad</item>
+        <item>Mahatma Montessori Matriculation Higher Secondary School</item>
+        <item>Mahesh Memorial Public Higher Secondary School, Bagh</item>
+        <item>Malda Zilla School</item>
+        <item>Mallinson Girls School, Srinagar</item>
+        <item>Manas International Public School, Jehanabad</item>
+        <item>Manava Bharati India International School, two locations</item>
+        <item>Manimala Girls High School</item>
+        <item>Maria Assumpta Convent School</item>
+        <item>Maria Rafols School, Kanyakumari</item>
+        <item>Mata Jaswant Kaur Memorial School, Badal</item>
+        <item>Md Jan Higher Secondary School</item>
+        <item>Melaghar Class XII School</item>
+        <item>Mercy Memorial School</item>
+        <item>Methodist High School,Kanpur</item>
+        <item>Midnapore Collegiate School</item>
+        <item>Modern High School for Girls</item>
+        <item>Modern School</item>
+        <item>Modern Vidya Niketan schools (multiple locations in Faridabad)</item>
+        <item>Monad Public School, Gadarpur</item>
+        <item>Montfort School, Anakkara</item>
+        <item>Montfort Senior Secondary School, Roorkee</item>
+        <item>Morning Star Higher Secondary School, Gudalur</item>
+        <item>Motilal Nehru School of Sports, Rai</item>
+        <item>Mount Assisi School</item>
+        <item>Mount Carmel Convent Anglo-Indian Girls High School, Kollam</item>
+        <item>Mount Carmel High School, Ahmedabad</item>
+        <item>Mount Carmel High School, Gandhinagar</item>
+        <item>Mount Carmel School</item>
+        <item>Mount Carmel School</item>
+        <item>Mount Carmel School, Darjeeling</item>
+        <item>Mount Hermon School</item>
+        <item>Mount Litera Zee School, Moga</item>
+        <item>Mrs. Bullmore School, Coonoor</item>
+        <item>Nabapally Boys\' High School</item>
+        <item>Nagarjuna High School, Warangal</item>
+        <item>Nalbari Govt Gurdon H.S School, Nalbari</item>
+        <item>Nandapur Milani Balika Vidyaniketan, Purba Medinipur</item>
+        <item>Nasr School, Hyderabad</item>
+        <item>National English School, Kolkata</item>
+        <item>National High School</item>
+        <item>National Higher Secondary School Mannargudi</item>
+        <item>Nava Nalanda High School</item>
+        <item>Navrachana School</item>
+        <item>Nawaz Public Higher Secondary School Palam Rajauri</item>
+        <item>Netaji Subhash Vidyaniketan</item>
+        <item>New Prince Matriculation Higher Secondary School, Chennai</item>
+        <item>Nirmala Higher Secondary School</item>
+        <item>Nirmala Higher Secondary School, Chemperi</item>
+        <item>Nuchhungi English Medium School, Hnahthial</item>
+        <item>Nutan Vidyalaya Education Society, Gulbarga</item>
+        <item>Oaktree International School, Kolkata</item>
+        <item>Okersa High School</item>
+        <item>Olympus High School, Dehradun</item>
+        <item>Open Minds - A Birla School, Kollur, near Gachibowli, Hyderabad</item>
+        <item>Our Lady Queen of the Missions School</item>
+        <item>P.S. Higher Secondary School, Chennai</item>
+        <item>Padma Ratna English School</item>
+        <item>Padma Seshadri Bala Bhavan</item>
+        <item>Panchavati High School, Secunderabad</item>
+        <item>Patha Bhavan, Kolkata</item>
+        <item>Patha Bhavana, Santiniketan</item>
+        <item>Patulia High School</item>
+        <item>Perks Matriculation Higher Secondary School, Coimbatore</item>
+        <item>Petit Seminaire Higher Secondary School</item>
+        <item>Pinegrove School</item>
+        <item>Pioneer High School, Anand</item>
+        <item>Podar World School</item>
+        <item>Ponnu Matriculation Higher Secondary School, Dharapuram</item>
+        <item>Prakash Higher Secondary School</item>
+        <item>Presentation Convent Higher Secondary School, Srinagar</item>
+        <item>Presentation Convent Senior Secondary School, Jammu</item>
+        <item>Priyadarshini High School, Pithapuram</item>
+        <item>Progressive School Barh, Barh</item>
+        <item>Pt. Deen Dayal Upadhyaya Sanatan Dharma Vidyalaya</item>
+        <item>Puranchandra Vidyaniketan</item>
+        <item>R P S Inter College</item>
+        <item>R. S. Krishnan Higher Secondary School</item>
+        <item>R.A.N. Public School, Rudrapur</item>
+        <item>Raghunathganj High School</item>
+        <item>Rahat Public Junior High School</item>
+        <item>Railway Colony Municipal Higher Secondary School</item>
+        <item>Railway Mixed Higher Secondary School, Golden Rock, Tiruchirappalli</item>
+        <item>Railway School</item>
+        <item>Rajarshi Memorial Higher Secondary School</item>
+        <item>Rajeev Gandhi Memorial Boarding School, Sheopur</item>
+        <item>Rajkumar College, Raipur</item>
+        <item>Rajkumar College, Rajkot</item>
+        <item>Rajratan Purshotoom Tribhuvandas Patel High School</item>
+        <item>Ramagya School</item>
+        <item>Ramakrishna Mission Multipurpose School, Kamarpukur</item>
+        <item>Ramakrishna Mission Schools</item>
+        <item>Ramakrishna Mission Vidyalaya, Narendrapur</item>
+        <item>Ramakrishna Mission Vidyapith, Purulia</item>
+        <item>Rani Laxmi Bai Memorial Senior Secondary School</item>
+        <item>Ratnam Concept School, Nellore</item>
+        <item>Ravitheja Residential High School, Nagarkurnool</item>
+        <item>Regina Mundi High School, Chicalim</item>
+        <item>Rice City Matriculation Higher Secondary School</item>
+        <item>Rishikul Vidyapeeth, Sonipat</item>
+        <item>Rockvale Academy</item>
+        <item>Rosary High School</item>
+        <item>Rose Public School, Darbhanga</item>
+        <item>Royal Kids\' Convent</item>
+        <item>Ryan International Noida</item>
+        <item>Ryan International School</item>
+        <item>Ryan International Schools</item>
+        <item>SBOA School &amp;amp;amp; Junior College, Chennai</item>
+        <item>SFX High School Siolim Goa</item>
+        <item>SMB Matriculation School, Dindigul</item>
+        <item>SMD High School</item>
+        <item>SMSV. Hr. Sec School</item>
+        <item>SOS Hermann Gmeiner School, Sector 29, Faridabad</item>
+        <item>SPNRC High School, Vijayawada</item>
+        <item>Sacred Heart Girls High School</item>
+        <item>Sacred Heart High School, Dharamshala</item>
+        <item>Sainik School, Amaravathinagar</item>
+        <item>Sainik School, Ambikapur.</item>
+        <item>Sainik School, Goalpara</item>
+        <item>Sainik School, Imphal</item>
+        <item>Sainik School, Korukonda, Vizanagaram</item>
+        <item>Sainik School, Manasbal</item>
+        <item>Sainik School, Nagrota</item>
+        <item>Sainik School, Punglwa</item>
+        <item>Saint Anthony\'s Inter College</item>
+        <item>Saint Britto High School, Mapusa</item>
+        <item>Saint Charles English Medium High School, Chilakaluripet</item>
+        <item>Salt Lake School</item>
+        <item>Sanskaar Valley School, Bhopal</item>
+        <item>Santragachi Kedarnath Institution</item>
+        <item>Saraswat School of Science, Ghatlodia</item>
+        <item>Saraswati International School</item>
+        <item>Saraswati Shishu Mandir</item>
+        <item>Sasi Merit School, Bhimavaram</item>
+        <item>Satavahana College, Vijayawada</item>
+        <item>Scottish Church Collegiate School</item>
+        <item>Seth Anand Ram Jaipuria School, Kanpur</item>
+        <item>Seth Bhaskar Matriculation Higher Secondary School, Ambattur</item>
+        <item>Sethupathi Higher Secondary School, Madurai</item>
+        <item>Seventh-day Adventist Higher Secondary School, Kochi</item>
+        <item>Shalom Hills International School, Gurgaon</item>
+        <item>Sharada Mandir School, Panjim</item>
+        <item>Sharon Public Higher Secondary School, Ambedkar Colony, Rount, Udhampur</item>
+        <item>Shayama Prasad Shikshayatan High School</item>
+        <item>Sheth Chimanlal Nagindas Vidyalaya</item>
+        <item>Shimla Public School, Shimla</item>
+        <item>Shiv Ganga Vidya Mandir, Phaphamau, Allahabad</item>
+        <item>Shivalik Public School, Mohali</item>
+        <item>Shivalik Public School, Mohali</item>
+        <item>Shree Damodar Higher Secondary School of Science</item>
+        <item>Sibpur S.S.P.S. Vidyalaya</item>
+        <item>Siliguri Boys High School</item>
+        <item>Sir C.R.Reddy High School, Eluru</item>
+        <item>Sir Syed Memorial School, Gaya</item>
+        <item>Sishya School, Chennai</item>
+        <item>Somerville School, Greater Noida</item>
+        <item>South Point</item>
+        <item>South Street Hindu Nadar Higher Secondary School</item>
+        <item>Spring Dale High School, Jorhat</item>
+        <item>Sree Ayyappa Public School, Bokaro Steel City</item>
+        <item>Sri Chaitanya Techno School, Eluru</item>
+        <item>Sri Pratap Higher Secondary School</item>
+        <item>Sri Raasi Vinayaga school</item>
+        <item>Sri Sathya Sai Vidya Vihar, Visakhapatnam</item>
+        <item>Sri Vidya Nilayam High School, Eluru</item>
+        <item>St Aloysius\' High School, Kanpur</item>
+        <item>St Fidelis College</item>
+        <item>St Francis de Sales School, Dhemaji</item>
+        <item>St John\'s Church High School, Secunderabad</item>
+        <item>St Joseph\'s Higher Secondary School, Thalassery</item>
+        <item>St Joseph\'s School, Rihand</item>
+        <item>St Paul\'s School, Agartala</item>
+        <item>St Peters School, Kadayiruppu</item>
+        <item>St Stephens School, Pathanapuram</item>
+        <item>St Thomas School, Kolkata</item>
+        <item>St. Aloysius College, Mangalore</item>
+        <item>St. Aloysius PU College, Harihar</item>
+        <item>St. Aloysius Senior Secondary School</item>
+        <item>St. Ann\'s High School, Secunderabad</item>
+        <item>St. Ann\'s School, Ahmedabad</item>
+        <item>St. Anne\'s Convent School, Chandigarh</item>
+        <item>St. Anthony\'s Higher Secondary School, Shillong</item>
+        <item>St. Anthony\'s School, Ranchi</item>
+        <item>St. Antony\'s Higher Secondary School, Sholavandan</item>
+        <item>St. Antony\'s Higher Secondary School, Thanjavur</item>
+        <item>St. Antony\'s Matriculation Higher Secondary School, Srivilliputhur</item>
+        <item>St. Arul Anandar School, Oriyur</item>
+        <item>St. Augustine\'s Higher Secondary School, Karimkunnam</item>
+        <item>St. Augustine\'s School</item>
+        <item>St. Britto\'s, Goa</item>
+        <item>St. Edward\'s School, Shimla</item>
+        <item>St. Francis Higher Secondary School, Pithampur</item>
+        <item>St. Francis Sales Central School</item>
+        <item>St. Francis Xavier School, Kolkata</item>
+        <item>St. Francis of Assisi Convent High School</item>
+        <item>St. Francis\' College</item>
+        <item>St. Francis\' School, Jorethang</item>
+        <item>St. George\'s College, Mussoorie</item>
+        <item>St. George\'s Grammar School</item>
+        <item>St. George\'s Higher Secondary School</item>
+        <item>St. George\'s School, Chennai</item>
+        <item>St. James\' School, Kolkata</item>
+        <item>St. John\'s High School</item>
+        <item>St. John\'s High School, Amalapuram</item>
+        <item>St. John\'s High School, Ranchi</item>
+        <item>St. John\'s School, Ghazipur</item>
+        <item>St. John\'s School, Varanasi</item>
+        <item>St. John\'s Sr. Sec. School, Meerut</item>
+        <item>St. Joseph Boys Higher Secondary School, Trichy</item>
+        <item>St. Joseph School, Anekal</item>
+        <item>St. Joseph Senior Secondary School, Chandigarh</item>
+        <item>St. Joseph\'s Academy (Ranked 1st), Dehradun</item>
+        <item>St. Joseph\'s College, Allahabad</item>
+        <item>St. Joseph\'s College, Nainital</item>
+        <item>St. Joseph\'s Convent School, Bhopal</item>
+        <item>St. Joseph\'s Convent School, Kalpetta</item>
+        <item>St. Joseph\'s Matriculation Higher Secondary School, Coimbatore</item>
+        <item>St. Joseph\'s PU College, Anekal</item>
+        <item>St. Joseph\'s School, Baramulla</item>
+        <item>St. Joseph\'s School, Bhagalpur</item>
+        <item>St. Joseph\'s School, Darjeeling</item>
+        <item>St. Joseph\'s School, Hassan</item>
+        <item>St. Joseph\'s School, Imphal</item>
+        <item>St. Joseph\'s School, Pakartalla, Kahalgaon</item>
+        <item>St. Joseph\'s Senior Secondary School, Kanpur</item>
+        <item>St. Joseph\'s Senior Secondary School, NTPC, Dibiyapur</item>
+        <item>St. Lawrence High School</item>
+        <item>St. Luke\'s Senior Secondary School</item>
+        <item>St. Mary\'s Academy, Meerut Cantt.</item>
+        <item>St. Mary\'s Anglo-Indian Higher Secondary School, Chennai</item>
+        <item>St. Mary\'s Convent High School, Mapusa, Goa</item>
+        <item>St. Mary\'s Convent School, Kasauli</item>
+        <item>St. Mary\'s English High School, Guwahati</item>
+        <item>St. Mary\'s Higher Secondary School, Dindigul</item>
+        <item>St. Mary\'s Higher Secondary School, Vickramasingapuram</item>
+        <item>St. Mary\'s Residential Central School</item>
+        <item>St. Mary\'s School, Belgaum</item>
+        <item>St. Mary\'s School, Chandigarh</item>
+        <item>St. Mary’s Higher Secondary School, Madurai</item>
+        <item>St. Michael\'s School B zone unit</item>
+        <item>St. Michael\'s School, Kannur</item>
+        <item>St. Patrick\'s Anglo Indian Higher Secondary School, Chennai</item>
+        <item>St. Patrick\'s High School, Secunderabad</item>
+        <item>St. Patrick\'s High School, Secunderabad</item>
+        <item>St. Patrick\'s Higher Secondary School</item>
+        <item>St. Paul\'s College</item>
+        <item>St. Paul\'s High School, Hajipur</item>
+        <item>St. Paul\'s Matriculation Higher Secondary School, Neyveli</item>
+        <item>St. Paul\'s School, Belgaum</item>
+        <item>St. Paul\'s School, Darjeeling</item>
+        <item>St. Peter\'s College, Agra</item>
+        <item>St. Peter\'s College, Wazirpura Road, Agra</item>
+        <item>St. Peter\'s High School, Jammu</item>
+        <item>St. Raphael\'s Girls\' Higher Secondary School, Indore</item>
+        <item>St. Roberts School, Darjeeling</item>
+        <item>St. Stephen\'s School, Chandigarh</item>
+        <item>St. Thomas (SPG) Boys\' High School</item>
+        <item>St. Thomas Convent School, Palakkad</item>
+        <item>St. Thomas\' Church School, Howrah</item>
+        <item>St. Vincent\'s High and Technical School</item>
+        <item>St. Xavier\'s College of Education, Hindupur</item>
+        <item>St. Xavier\'s Collegiate School</item>
+        <item>St. Xavier\'s High School Loyola Hall</item>
+        <item>St. Xavier\'s High School, Darsi</item>
+        <item>St. Xavier\'s High School, Mirzapur</item>
+        <item>St. Xavier\'s High School, Surat</item>
+        <item>St. Xavier\'s High School, Suryapet</item>
+        <item>St. Xavier\'s Higher Secondary School, Bettiah</item>
+        <item>St. Xavier\'s Higher Secondary School, Palayamkottai</item>
+        <item>St. Xavier\'s Higher Secondary School, Thoothukudi</item>
+        <item>St. Xavier\'s PU College, Gulbarga</item>
+        <item>St. Xavier\'s School, Bokaro</item>
+        <item>St. Xavier\'s School, Burdwan</item>
+        <item>St. Xavier\'s School, Durgapur</item>
+        <item>St. Xavier\'s School, Ranchi</item>
+        <item>St. Xavier\'s Senior Secondary School</item>
+        <item>St. Xavier\'s, Adipur</item>
+        <item>St. Xaviers School, Pakyong</item>
+        <item>St.Aloysius Anglo Indian High School, Visakhapatnam</item>
+        <item>St.Paul Higher Secondary School, Indore</item>
+        <item>Stanes Anglo Indian Higher Secondary School, Coimbatore</item>
+        <item>Stanes Anglo Indian Higher Secondary School, Coonoor</item>
+        <item>Strawberry Fields World School</item>
+        <item>Study Hall</item>
+        <item>Sundravalli Memorial School</item>
+        <item>Surendranath Centenary School, Dipatoli, Ranchi</item>
+        <item>Synod Higher Secondary School, Aizawl</item>
+        <item>Taktse International School</item>
+        <item>Talimuddin Inter College, Mau</item>
+        <item>Tansri Ubaidulla Matriculation Higher Secondary School, Rajaghiri</item>
+        <item>Tashi Namgyal Academy</item>
+        <item>Technical Higher Secondary School, Cherthala</item>
+        <item>Thambu Higher Secondary School, Coimbatore</item>
+        <item>The Aryan School, Dehradun</item>
+        <item>The Charter School, Pukkattupady, Kochi</item>
+        <item>The Charter School, Trivandrum</item>
+        <item>The Frank Anthony Public School, Kolkata</item>
+        <item>The Heritage School, Kolkata</item>
+        <item>The Pentecostal Assembly School, Bokaro</item>
+        <item>The Royal College, Dehradun, Dehradun</item>
+        <item>The Shri Ram School, Gurgaon</item>
+        <item>Timpany School, Asilmetta, Visakhapatnam</item>
+        <item>Town Higher Secondary School, Kumbakonam</item>
+        <item>Trinity Academy, Namakkal</item>
+        <item>Tula\'s International School, Dehradun</item>
+        <item>Tyndale Biscoe School, Srinagar</item>
+        <item>Udyogamandal School</item>
+        <item>Umakanta Academy</item>
+        <item>Unison World School, Dehradun</item>
+        <item>V. R. Senior Secondary Public School, Baddi</item>
+        <item>V.B.R English Medium High School, Nellore</item>
+        <item>Valliammal Matriculation Higher Secondary School</item>
+        <item>Vardhman Academy</item>
+        <item>Vatika High School for Deaf &amp;amp;amp; Dumb</item>
+        <item>Velankanni Matriculation And Higher Secondary School</item>
+        <item>Vellayan Chettiyar Higher Secondary School</item>
+        <item>Vibgyor High International School</item>
+        <item>Vibgyor High School</item>
+        <item>Vidya Bharati Akhil Bharatiya Shiksha Sansthan</item>
+        <item>Vidya Devi Jindal School, Hisar</item>
+        <item>Vidya Niketan School, Chhindwara</item>
+        <item>Vidya Sanskar – International School for Holistic Learning, Village Bhopani</item>
+        <item>Vidyadhiraja Vidya Bhavan Higher Secondary School, Aluva</item>
+        <item>Vidyaranya High School, Saifabad</item>
+        <item>Vidyashilp Academy, Bangalore</item>
+        <item>Vijnana Vihara School, Nutakki</item>
+        <item>Vikas Vidyalaya, Ranchi</item>
+        <item>Vishwa Bharati Public School</item>
+        <item>Viswa Bharathi English Medium High School, Gudivada</item>
+        <item>Vivekananda Institution</item>
+        <item>Vivekananda Kendra Vidyalaya</item>
+        <item>Vivekananda Vidyalaya</item>
+        <item>Walden\'s Path, Jubilee Hills</item>
+        <item>Waldorf Schools</item>
+        <item>Watson High School, Madhubani</item>
+        <item>Woodstock School, Mussoorie</item>
+        <item>Wynberg Allen School, Mussoorie</item>
+        <item>Xavier School, Manvi, Raichur</item>
+        <item>Yadavindra Public School, Mohali</item>
+        <item>Zydus School for Excellence</item>
+
+    </string-array>
+
+    <string-array name="list_awards">
+        <item>ABHO (Akhil Bhartiya Hindi Olympiad) </item>
+        <item>ACC (ART CLINIC CONTEST) </item>
+        <item>ASSET (Assessment of Scholastic Skills through Educational Testing) </item>
+        <item>ASSET Online</item>
+        <item>BIFO (BSE INTERNATIONAL FINANCE OLYMPIAD) </item>
+        <item>BIIO (Brilliant International Informatics Olympiad) </item>
+        <item>BIOEL (Brilliant International Olympiad English Language) </item>
+        <item>BIOM (Brilliant International Olympiad of Mathematics) </item>
+        <item>BIOS (Brilliant International Olympiad of Science) </item>
+        <item>CCC</item>
+        <item>Geography Olympiad</item>
+        <item>HBBVS (Dr. Homi Bhabha Balvaidnyanik Spardha) </item>
+        <item>IAIS/ICAS (International Competitions and Assessments) </item>
+        <item>ICO (INTERNATIONAL CYBER OLYMPIAD) </item>
+        <item>ICSO (International Company Secretaries Olympiad) (by SOF) </item>
+        <item>IEO (INTERNATIONAL ENGLISH OLYMPIAD) </item>
+        <item>IEO (International English Olympiad) (by SOF) Level 1</item>
+        <item>IEO (International English Olympiad) (by SOF) Level 2</item>
+        <item>IFLO (International French Language Olympiad) </item>
+        <item>IGKO (International General Knowledge Olympiad) (by SOF) </item>
+        <item>IGO (INTERNATIONAL GENERAL KNOWLEDGE OLYMPIAD) </item>
+        <item>IIO (International Informatics Olympiad) </item>
+        <item>IJSO (International Junior Science Olympiad) </item>
+        <item>IMO (International Mathematics Olympiad) (by SOF) Level 1</item>
+        <item>IMO (International Mathematics Olympiad) (by SOF) Level 2</item>
+        <item>IOEL (International Olympiad of English Language) </item>
+        <item>IOM (International Olympiad of Mathematics) </item>
+        <item>IOS (International Olympiad of Science) </item>
+        <item>IRAO (International Reasoning &amp;amp; Mental Ability Olympiad) </item>
+        <item>ISSO (International Social Studies Olympiad) </item>
+        <item>ITHO (International Talent Hunt Olympiad) </item>
+        <item>KVPY (Kishore Vaigyanik Protsahan Yojana) </item>
+        <item>Mathematical Olympiad Programme</item>
+        <item>NBTO (NATIONAL BIOTECHNOLOGY OLYMPIAD) </item>
+        <item>NCO (National Cyber Olympiad) (by SOF) </item>
+        <item>NIMO (NATIONAL INTERACTIVE MATH OLYMPIAD) </item>
+        <item>NIPO (NATIONAL IIT-PMT OLYMPIAD) </item>
+        <item>NISO (NATIONAL INTERACTIVE SCIENCE OLYMPIAD ) </item>
+        <item>NSEA (National Standard Examination in Astronomy) </item>
+        <item>NSEB (National Standard Examination in Biology) </item>
+        <item>NSEC (National Standard Examination in Chemistry) </item>
+        <item>NSEJS (National Standard Examination in Junior Science) </item>
+        <item>NSEP (National Standard Examination in Physics) </item>
+        <item>NSO (National Science Olympiad) </item>
+        <item>NSO (National Science Olympiad) (by SOF) Level 1</item>
+        <item>NSO (National Science Olympiad) (by SOF) Level 2</item>
+        <item>NSSO (NATIONAL SPACE SCIENCE OLYMPIAD) </item>
+        <item>NSTSE (National Level Science Talent Search Exam) </item>
+        <item>NTSE (National Talent Search Examination) </item>
+        <item>R-STSE (State Talent Search Examination) </item>
+        <item>SKGKO (Smart Kid General Knowledge Olympiad) </item>
+        <item>SLSTSE (State Level Science Talent Search Examination) </item>
+        <item>SSTSE (State Science Talent Search Examination) </item>
+        <item>UCO (Unified Cyber Olympiad) </item>
+        <item>UIEO (Unified International English Olympiad) </item>
+        <item>ZCO (Zonal Computing Olympiad) </item>
+        <item>ZIO (Zonal Informatics Olympiad) </item>
+
+    </string-array>
+
+    <string-array name="list_exam">
+
+        <item>AEEE (Amrita Engineering Entrance Exam) </item>
+        <item>AISEEE (All India Sankara Engineering Entrance Exam) </item>
+        <item>AMUEEE (Aligarh Muslim University Engineering Entance Exam) </item>
+        <item>AP EAMCET (Andhra Pradesh Engineering,Agriculture and Medical Common Entrance Test) </item>
+        <item>AP PGECET (Andhra Pradesh Post Graduate Engineering Common Entrance Test) </item>
+        <item>APICET (Andhra Pradesh Integrated Common Entrance Test) </item>
+        <item>ATMA (AIMS Test For Management Admissions) </item>
+        <item>AUEET (Alliance University Engineering Entrance Test) </item>
+        <item>AUMAT (Alliance Undergraduate Manageement Aptitude Test) </item>
+        <item>Amity JEE (Amity Joint Entrance Examination) </item>
+        <item>Amrita M.Tech Admission (Amrita University M.Tech Admission) </item>
+        <item>Assam Cee (Assam Common Entrance Exam) </item>
+        <item>B-MAT (Bharati Vidyapeeth Deemed University Management Aptitude Test) </item>
+        <item>BEEE (Bharat University Engineering Entrance Exam) </item>
+        <item>BET (Bocconi Entrance Test) </item>
+        <item>BITS HD (Birla Institute Of Technology And Science Higher Degree) </item>
+        <item>BITSAT (Birla Institute Of Technology And Science Admission Test) </item>
+        <item>BSAUEEE (B.S.Abdur Rahman University Engineering Entrance Exam) </item>
+        <item>BUMAT (Bharati Vidyapeeth Deemed University Management Aptitude Test) </item>
+        <item>BVCECE (Bihar Combined Entrance Competitive Examination) </item>
+        <item>BVPCET (Bharati Vidyapeeth University Engineering Entrance Exam) </item>
+        <item>Banasthali Uniersity Aptitude Test (Banasthali University) </item>
+        <item>CAT (Common Admission Test) </item>
+        <item>CEED (Common Entrance Examination For Design) </item>
+        <item>CENTAC Admission (Centralized Admission Committee Pondicherry) </item>
+        <item>CG PET (Chhattisgarh Pre Engineering Test) </item>
+        <item>CIPET JEE (Central Institute Of Plastic Engineering and Technology) </item>
+        <item>CMAT (Common Management Admission Test) </item>
+        <item>COMEDK (Consortium Of Medical Engineering and Dental Colleges Of Karnataka) </item>
+        <item>CUCET Engineering (Central Universities Common Entrance Test) </item>
+        <item>CUEE (Centurion University Entrance Examination) </item>
+        <item>CUSAT CAT (Cochin University Of Science And Technology Common Aptitude Test) </item>
+        <item>CUSAT M.Tech Admission (Cochin University Of Science And Technology) </item>
+        <item>Chandigarh Admission (Joint Admission Committee,Chandigarh) </item>
+        <item>Chhattisgarh M.Tech Admission (Chhattisgarh M.E/M.Tech Admission) </item>
+        <item>Christ University BBA Entrance Exam</item>
+        <item>DAIICT (Dhirubhai Ambani Institute Of Information And Communication Technology) </item>
+        <item>DASA PG (Direct Admission Of Students Abroad PG) </item>
+        <item>DASA (Direct Admission Of Students Abroad) </item>
+        <item>DTU M.tech Admission (Delhi Technical University) </item>
+        <item>DTU (Delhi Technical University) </item>
+        <item>DU JAT (DELHI UNIVERSITY JOINT ADMISSION TEST) </item>
+        <item>GATE (Graduate Aptitude Test In Engineering) </item>
+        <item>GCET (Goa Common Entrance Test) </item>
+        <item>GEEE (Galgotias Engineering Entrance Exam) </item>
+        <item>GGSIPU CET BBA (Guru Gobind Singh Indraprastha University,Delhi) </item>
+        <item>GITAM GAT</item>
+        <item>GITAM GAT PGT (Gandhi Institute Of Technology And Management PG Test) </item>
+        <item>GLAET (GLA University Entrance Test) </item>
+        <item>GMAT (Graduate Management Admission Test) </item>
+        <item>GOT (Gitam Online Test) </item>
+        <item>GUJCET (Gujarat Common Entrance Test) </item>
+        <item>Gujarat PGCET (Gujarat PG Common Entrance Test) </item>
+        <item>HITSEEE (Hindustan Institute Of Technology and Science Engineering Entrance Exam) </item>
+        <item>HPCET (Himachal Pradesh Combined Entrance Test) </item>
+        <item>HPU-MAT (HP University Management Aptitude Test) </item>
+        <item>Haryana Admission (Haryana Engineering Admission) </item>
+        <item>Himachal Pradesh M.Tech Admission</item>
+        <item>IBSAT (IBS Aptitude Test) </item>
+        <item>IIEST (IIEST Entrance Exam) </item>
+        <item>IIFT (Indian Institute Of Foreign Trade) </item>
+        <item>IIIT BH (International Institute Of Information Technology) </item>
+        <item>IIIT Delhi (Indraprastha Institute Of Information Technology Entrance Exam PG) </item>
+        <item>IIIT Delhi (Indraprastha Institute Of Information Technology) </item>
+        <item>IIIT Hyderabad (International Institute Of Information Technology) </item>
+        <item>IIIT-B M.Tech Admission (IIIT Bangalore) </item>
+        <item>IIITH PGEE (IIITH Postgraduate Entrance Examination) </item>
+        <item>IIITM-K Exam (IIITM-K All India Admission Test And Interview) </item>
+        <item>IISER Admissions (Indian Institute Of Science Education And Research) </item>
+        <item>IIST Admission PG (Indian Institute Of Space Science And Technology) </item>
+        <item>IIST Admission UG (Indian Institute Of Space Science And Technology) </item>
+        <item>IPMAT (IIM Indore Integrated Program in Management Aptitude Test) </item>
+        <item>IPU CET PG (Indraprastha University Common Entrance Test PG) </item>
+        <item>IPU CET (Indraprastha University Common Entrance Test) </item>
+        <item>IRMA (Institute Of Rural Management Anand) </item>
+        <item>ISI Admission Test (Indian Statistical Institute Admission Test) </item>
+        <item>ISM EE (Indian School Of Mines Dhanbad Entrance Exam) </item>
+        <item>ITSAT (ICFAI Tech School Admission Test) </item>
+        <item>IUET (Integral University Entrance Exam) </item>
+        <item>JAC Delhi (Joint Admission Counselling Delhi) </item>
+        <item>JAYPEE (JAYPEE University Admission) </item>
+        <item>JEE Advance (Joint Entrance Exam Advanced) </item>
+        <item>JEE Main (Joint Entrance Exam Main) </item>
+        <item>JEECE (Jharkhand Common Entrance Test) </item>
+        <item>JET (Jain Entrance Test) </item>
+        <item>JIIT PGCET (JIIT PG Common Entrance Test) </item>
+        <item>JKCET (Jammu And Kashmir Common Entrance Test) </item>
+        <item>JKLU EET (JK Lakshmipat University Engineering Entrance Test) </item>
+        <item>JKLU MET (JK Lakshmipat University Management Entrance Test) </item>
+        <item>JMI Admissions (Jamia Millia Islamia Admissions) </item>
+        <item>JNU CEE M.Tech (JNU Common Entrance Exam For M.Tech) </item>
+        <item>KCET (Karnataka Common Entrance Test) </item>
+        <item>KEAM (Common Entrance Examination Kerala) </item>
+        <item>KEE (Karunya University Entrance Exam) </item>
+        <item>KIITEE PG (Kalinga Institute Of Industrial Technology Entrance Exam PG) </item>
+        <item>KIITEE (Kalinga Institute Of Industrial Technology Entrance Exam) </item>
+        <item>KLU EEE (KLU Engineering Entrance Exam) </item>
+        <item>KMAT (Karnataka Management Aptitude Test) </item>
+        <item>KRLMPCA CET</item>
+        <item>Karnataka PGCET (The Karnataka Post Graduate Common Entrance Test) </item>
+        <item>Kerala M.Tech Admission (Kerala M.Tech Admission) </item>
+        <item>LNMIIT (LNM Institute Of Information Technology,Jaipur) </item>
+        <item>LNMIIT-PG (LNM Institute Of Information Technology PG Entrance Exam) </item>
+        <item>LPU NEST (Lovely Professional University National Eligibility Scholarship Test) </item>
+        <item>MAH CET (Maharashtra Common Entrance Test) </item>
+        <item>MAT (Management Aptitude Test) </item>
+        <item>MHT CET (Maharashtra Common Entrance Test) </item>
+        <item>MICAT (MICA Admission Test) </item>
+        <item>MP B.E Admission (Madhya Pradesh Engineering Admissions) </item>
+        <item>MP M.Tech Admission (Madhya Pradesh M.Tech Admissions) </item>
+        <item>MP MBA Admission (Madhya Pradesh MBA Admission) </item>
+        <item>MUOET PG (Manipal University Online Entrance Test M.Tech) </item>
+        <item>MUOET (Manipal University Online Entrance Exam) </item>
+        <item>Maharashtra M.Tech Admission</item>
+        <item>NATA (National Aptitude Test in Architecture) </item>
+        <item>NMAT by GMAC</item>
+        <item>NPAT UG (National Test For Programs After Twelfth) </item>
+        <item>NSIT M.Tech Admission (Netaji Subhash Institute Of Technology) </item>
+        <item>NSIT (Netaji Subhash Institute Of Technology) </item>
+        <item>Nirma M.Tech Admission (Nirma University M.Tech Admission Entrance Exam) </item>
+        <item>Nirma University (Nirma University Entrance Exam) </item>
+        <item>OJEE (Odisha PG Joint Entrance Exam) </item>
+        <item>Odisha JEE MBA (Odisha Joint Entrance Exam) </item>
+        <item>Odisha JEE (Odisha Joint Entrance Exam) </item>
+        <item>PAT BBA (National Test For Programs After Twelfth</item>
+        <item>PDPU M.Tech Admission (Pandit Deendayal Petroleum University) </item>
+        <item>PDPU (Pandit Deendayal Petroleum University) </item>
+        <item>PESSAT (PES Scholastic Aptitude Test) </item>
+        <item>PGCET (Post Graduate Common Entrance Test) </item>
+        <item>PTU M.Tech Admission (Punjab Technical University M.Tech Admission) </item>
+        <item>PTU-MET (Punjab Technical University Management Entrance Test) </item>
+        <item>Punjab Admission (Punjab Engineering Admission) </item>
+        <item>REAP (Rajasthan Engineering Admission Process) </item>
+        <item>REVA EET (REVA University Engineering Entrance Test) </item>
+        <item>REVA MAT (REVA University Management Aptitude Test) </item>
+        <item>RGIPT M.Tech Admission (Rajiv GandInstitute Of Petroleum Technology PG Admission) </item>
+        <item>RGIPT (Rajiv GandInstitute Of Petroleum Technology) </item>
+        <item>SAAT PG (Siksha O Anusandhan University PG Admission Test) </item>
+        <item>SAAT (Siksha O Anusandhan University) </item>
+        <item>SBAIEE (Sathyabama University All India Entrance Examination) </item>
+        <item>SET BBA (Symbiosis Entrance Test) </item>
+        <item>SET (Symbiosis Entrance Test) </item>
+        <item>SNAP (Symbiosis National Aptitude Test) </item>
+        <item>SP JAT (SP Jain Aptitude Test) </item>
+        <item>SRMCAT (SRM Common Admission Test) </item>
+        <item>SRMGEET (SRM Graduate Engineering Entrance Test) </item>
+        <item>SRMJEEE (SRM Joint Engineering Entrance Exam) </item>
+        <item>SUAT Management (Sharda University Admission Test) </item>
+        <item>SUAT (Sharda University Admission Test) </item>
+        <item>Sastra M.Tech Admissions (Sastra University M.Tech Admissions) </item>
+        <item>Sastra University (Sastra University Entrance Exam) </item>
+        <item>Sikkim Manipal University SMIT</item>
+        <item>St. Xavier\'s Entrance Exam</item>
+        <item>TANCET MBA (Tamil Nadu Common Entrance Test) </item>
+        <item>TANCET (Tamil Nadu Common Entrance Test) </item>
+        <item>TAP (Talent Appreciation Process) </item>
+        <item>THAPAR JEE Counselling (Thapar University B.Tech Admission) </item>
+        <item>TISS NET (TATA Institute Of Social Sciences National Entrance Test) </item>
+        <item>TJEE (Tripura Board Of Joint Entrance Exam) </item>
+        <item>TMISAT(Tolani martime Institute Scieence Aptitude test) </item>
+        <item>TNEA (Tamil Nadu Engineering Admission) </item>
+        <item>TS EAMCET (Telangana State EAMCET) </item>
+        <item>TS PGECET (Telangana State PG Engineering Common Entrance Test) </item>
+        <item>TSICET (Telangana State Integrated Common Entrance Test) </item>
+        <item>Thapar M.Tech Admission (Thapar University M.Tech Admission) </item>
+        <item>UCEED (Undergraduate Common Entrance Examination For Design) </item>
+        <item>UGA-AIMA (Under Graduate Aptitude Test-AIMA) </item>
+        <item>UOHyd M.Tech Admission (University Of Hyderabad M.Tech Admission) </item>
+        <item>UPES M.Tech Admission (University Of Petroleum And Energy Studies) </item>
+        <item>UPES-MET (UPES Management Entrance Test) </item>
+        <item>UPESEAT (University Of Petroleum and Energy Studies Engineering Aptitude Test) </item>
+        <item>UPSEE (Uttar Pradesh State Entrance Exam) </item>
+        <item>UPSEE (Uttar Pradesh State Entrance Exam) </item>
+        <item>UPTU M.Tech Admission (Uttar Pradesh Technical University) </item>
+        <item>Uttarakhand Admission (Uttarakhand Engineering Admission</item>
+        <item>Uttarakhand M.Tech Admission (Uttarakhand Technical University PG Admission) </item>
+        <item>VITEEE (VIT Engineering Entrance Exam</item>
+        <item>VITMEE (VIT Master\'s Entrance Examination) </item>
+        <item>VTUEEE (VelTech Technical University Engineering Entrance Exam) </item>
+        <item>WBJEE (West Bengal Joint Entrance Exam) </item>
+        <item>WBUT PGET (West Bengal University Of Technology PG Entrance Test) </item>
+        <item>XAT (Xavier Aptitude Test) </item>
+        <item> AWS Certified Solutions Architect – Associate</item>
+        <item> Certified Information Security Manager (CISM) </item>
+        <item> Certified Information Systems Auditor (CISA) </item>
+        <item> Certified Information Systems Security Professional (CISSP) </item>
+        <item> Certified in Risk and Information Systems Control (CRISC) </item>
+        <item> Cisco Certified Networking Professional (CCNP) Routing &amp; Switching</item>
+        <item> Citrix Certified Associate – Networking (CCA-N) </item>
+        <item> Citrix Certified Associate – Virtualization (CCA-V) </item>
+        <item> Citrix Certified Professional – Virtualization (CCP-V) </item>
+        <item> ITIL® v3 Foundation</item>
+        <item> Microsoft Certified Solutions Associate (MCSA) – Windows Server 2008</item>
+        <item> Microsoft Certified Solutions Associate (MCSA) – Windows Server 2012</item>
+        <item> Microsoft Certified Solutions Expert (MCSE) – Server Infrastructure</item>
+        <item> Project Management Professional (PMP®)</item>
+        <item> VMware Certified Professional 5 – Data Center Virtualisation (VCP5-DCV)</item>
+
+    </string-array>
+
+    <string-array name="list_certifications">
+
+        <item> AWS Certified Solutions Architect – Associate</item>
+        <item> Certified Information Security Manager (CISM) </item>
+        <item> Certified Information Systems Auditor (CISA) </item>
+        <item> Certified Information Systems Security Professional (CISSP) </item>
+        <item> Certified in Risk and Information Systems Control (CRISC) </item>
+        <item> Cisco Certified Networking Professional (CCNP) Routing &amp; Switching</item>
+        <item> Citrix Certified Associate – Networking (CCA-N) </item>
+        <item> Citrix Certified Associate – Virtualization (CCA-V) </item>
+        <item> Citrix Certified Professional – Virtualization (CCP-V) </item>
+        <item> ITIL® v3 Foundation</item>
+        <item> Microsoft Certified Solutions Associate (MCSA) – Windows Server 2008</item>
+        <item> Microsoft Certified Solutions Associate (MCSA) – Windows Server 2012</item>
+        <item> Microsoft Certified Solutions Expert (MCSE) – Server Infrastructure</item>
+        <item> Project Management Professional (PMP®)</item>
+        <item> VMware Certified Professional 5 – Data Center Virtualisation (VCP5-DCV) </item>
+
+    </string-array>
+
+    <string-array name="list_countries">
+        <item>Select Country</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas, The</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burma</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cabo Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo, Democratic Republic of the</item>
+        <item>Congo, Republic of the</item>
+        <item>Costa Rica</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curacao</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor/Timor-Leste </item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Holy See</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Korea, North</item>
+        <item>Korea, South</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>North Korea</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territories</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+
+    </string-array>
+
+    <string-array name="list_institutes">
+
+        <item>ACE Engineering Academy</item>
+        <item>Aakash Institute</item>
+        <item>Achievers Points</item>
+        <item>Allen Career Institute</item>
+        <item>Astitva ICS Academy</item>
+        <item>Bansal Classes</item>
+        <item>Brilliant Tutorials</item>
+        <item>Bulls Eye</item>
+        <item>Butchi Reddy Institute</item>
+        <item>Career Launcher</item>
+        <item>Career Plus</item>
+        <item>Career Point</item>
+        <item>Chanakya IAS Academy</item>
+        <item>Delhi Academy of Medical Science</item>
+        <item>Elite Academy</item>
+        <item>Endeavor Careers</item>
+        <item>Engineers Academy</item>
+        <item>Erudite</item>
+        <item>FiitJee</item>
+        <item>Gate Forum</item>
+        <item>IES Academy</item>
+        <item>IES Master</item>
+        <item>IITians Pace</item>
+        <item>IMS Institute</item>
+        <item>Khan Study Group</item>
+        <item>MBAguru</item>
+        <item>Motion IIT JEE</item>
+        <item>Naik Academy</item>
+        <item>Narayana Group of Educational Institution</item>
+        <item>Oasis Educational Services</item>
+        <item>PT Education</item>
+        <item>Prime Training Services Pvt Ltd</item>
+        <item>Resonance Institute</item>
+        <item>Sahil Sturdy Circle Private Ltd</item>
+        <item>Sri Chaitanya and Narayana</item>
+        <item>Super30</item>
+        <item>T.I.M.E.</item>
+        <item>Tara Coaching Institute</item>
+        <item>TestFunda</item>
+        <item>The Gate Academy</item>
+        <item>Trendz Academy of Fashion</item>
+        <item>Vani Institute</item>
+        <item>Vibrant Academy</item>
+        <item>Vidya Tutorials</item>
+        <item>Vidyamandir Classes</item>
+
+    </string-array>
+
+
+    <string-array name="list_exams">
+        <item>AFCAT</item>
+        <item>AIBE</item>
+        <item>AIHMCT</item>
+        <item>AIIMS</item>
+        <item>AIL Entrance Test</item>
+        <item>AJEE</item>
+        <item>AMU Law Entrance Exam</item>
+        <item>AP EAMCET</item>
+        <item>AP ECET</item>
+        <item>ASSAM CEE</item>
+        <item>ATMA</item>
+        <item>Alliance AUEET</item>
+        <item>B.ED.</item>
+        <item>B.EL.ED</item>
+        <item>BHU UET</item>
+        <item>BITSAT</item>
+        <item>BJMC</item>
+        <item>BVP CET HM</item>
+        <item>BVP CET Law</item>
+        <item>Banking</item>
+        <item>CA CPT</item>
+        <item>CAT</item>
+        <item>CDS</item>
+        <item>CET</item>
+        <item>CGPET</item>
+        <item>CLAT</item>
+        <item>CMAT</item>
+        <item>CMC Vellore</item>
+        <item>COMEDK UGET</item>
+        <item>CSIR</item>
+        <item>CTET</item>
+        <item>CUEE</item>
+        <item>CUSAT CAT</item>
+        <item>Class 1 Exam</item>
+        <item>Class 10 Board Exam</item>
+        <item>Class 11 Exam</item>
+        <item>Class 12 Board Exam</item>
+        <item>Class 2 Exam</item>
+        <item>Class 3 Exam</item>
+        <item>Class 4 Exam</item>
+        <item>Class 5 Exam</item>
+        <item>Class 6 Exam</item>
+        <item>Class 7 Exam</item>
+        <item>Class 8 Exam</item>
+        <item>Class 9 Exam</item>
+        <item>D.Ed</item>
+        <item>DBAS</item>
+        <item>DU DSE</item>
+        <item>DU MBBS</item>
+        <item>Delhi University Law Entrance Exam</item>
+        <item>FMGE</item>
+        <item>GATE</item>
+        <item>GCET</item>
+        <item>GEEE</item>
+        <item>GMAT</item>
+        <item>GNIHM JET</item>
+        <item>GRE</item>
+        <item>GUJCET</item>
+        <item>HITSEEE</item>
+        <item>HPCET</item>
+        <item>HSEE</item>
+        <item>IBPS Clerk</item>
+        <item>IBPS PO</item>
+        <item>IELTS</item>
+        <item>IIFT</item>
+        <item>IIHM eChat</item>
+        <item>IPU-CET</item>
+        <item>IRMA</item>
+        <item>ITSAT</item>
+        <item>Indian Army B.Sc. Nursing</item>
+        <item>JBT EXAM</item>
+        <item>JEE Main</item>
+        <item>JEE Advance</item>
+        <item>JEECE</item>
+        <item>JIPMER</item>
+        <item>JKCET</item>
+        <item>JLEE</item>
+        <item>KCET</item>
+        <item>KEAM</item>
+        <item>KEE</item>
+        <item>KIITEE</item>
+        <item>KLUEEE</item>
+        <item>KRLMPCA CET</item>
+        <item>LSAT</item>
+        <item>MA</item>
+        <item>MAH B.HMCT</item>
+        <item>MAT</item>
+        <item>MET</item>
+        <item>MHT CET</item>
+        <item>MICAT</item>
+        <item>MUCMET</item>
+        <item>NA</item>
+        <item>NABARD</item>
+        <item>NDA</item>
+        <item>NEET</item>
+        <item>NEET PG</item>
+        <item>NIFT</item>
+        <item>NMAT</item>
+        <item>NPAT</item>
+        <item>North Maharashtran University entrance exam</item>
+        <item>ONGC</item>
+        <item>PCS</item>
+        <item>PET</item>
+        <item>PGIMER</item>
+        <item>PGT</item>
+        <item>PMET</item>
+        <item>POLYCET</item>
+        <item>PRT</item>
+        <item>Patna women college entrance exam</item>
+        <item>RBI Assistant</item>
+        <item>RBI Grade-B</item>
+        <item>RIE-CEE</item>
+        <item>RPVT</item>
+        <item>RRB</item>
+        <item>SAT</item>
+        <item>SBAIEE</item>
+        <item>SBI Clerk</item>
+        <item>SBI PO</item>
+        <item>SET</item>
+        <item>SLET</item>
+        <item>SMIT Offline Test</item>
+        <item>SNAP</item>
+        <item>SRMJEEE</item>
+        <item>SSC -CGL</item>
+        <item>SSC-CHAL</item>
+        <item>TET</item>
+        <item>TGT</item>
+        <item>TISSNET</item>
+        <item>TJEE</item>
+        <item>TMISAT</item>
+        <item>TOEFL</item>
+        <item>TS EAMCET</item>
+        <item>TS ECET</item>
+        <item>TS PGECET</item>
+        <item>UGC-NET</item>
+        <item>UNI-GAUGE-E</item>
+        <item>UPES DAT 2019</item>
+        <item>UPSC</item>
+        <item>UPSEE</item>
+        <item>VITEEE</item>
+        <item>VTUEEE</item>
+        <item>WBJEE</item>
+        <item>XAT</item>
+    </string-array>
+
+
+    <string-array name="list_sub">
+        <item>Accountancy and Financial Management</item>
+        <item>Accounting and Finance for Managers</item>
+        <item>Accounting Theory and Practice</item>
+        <item>Accounts</item>
+        <item>Advance Computing Networks</item>
+        <item>Advanced Database Management Systems</item>
+        <item>Advanced Discrete Mathematics</item>
+        <item>Advanced Internet Technologies</item>
+        <item>Advertising and Sales Management</item>
+        <item>Aerospace Engineering</item>
+        <item>Aerospace Engineering Degree</item>
+        <item>Agricultural</item>
+        <item>Agricultural Engineering</item>
+        <item>Anaesthesia</item>
+        <item>Anatomy</item>
+        <item>Anesthesiology</item>
+        <item>Anthropology</item>
+        <item>Applied Economics</item>
+        <item>Applied Electronics and Instrumentation Engineering</item>
+        <item>Architectural Engineering</item>
+        <item>Artificial Intellegence</item>
+        <item>Artificial Intelligence and Knowledge Management</item>
+        <item>Automotive Engineering</item>
+        <item>Banking and Insurance</item>
+        <item>Basic Statistics</item>
+        <item>Bengali</item>
+        <item>Bio Informatics</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Biomechanical Engineering</item>
+        <item>Biomedical Engineering</item>
+        <item>Biosciences &amp; Bioengineering</item>
+        <item>Biotech Engineering</item>
+        <item>Biotechnology</item>
+        <item>Business Communication</item>
+        <item>Business Economics</item>
+        <item>Business Environment</item>
+        <item>Business Ethics</item>
+        <item>Business Industrial Laws</item>
+        <item>Business Laws</item>
+        <item>Business Mathematics</item>
+        <item>Business Organisation</item>
+        <item>Business Policy and Strategy</item>
+        <item>Business Statistics</item>
+        <item>Business Studies</item>
+        <item>C</item>
+        <item>C and Assembly Language Programming Lab</item>
+        <item>C++</item>
+        <item>Capital Investment and Financing Decisions</item>
+        <item>Center of Studies in Resources Engineering</item>
+        <item>Centre for Technology Alternatives for Rural Areas</item>
+        <item>Chemical and Polymer Engineering</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civics</item>
+        <item>Civil Engineering</item>
+        <item>Civil Environmental Engineering</item>
+        <item>Commodity Markets</item>
+        <item>Communication Skills</item>
+        <item>Community Medicine</item>
+        <item>Company and Compensation Laws</item>
+        <item>Computer</item>
+        <item>Computer Application</item>
+        <item>Computer Application and Information Technology</item>
+        <item>Computer Applications</item>
+        <item>Computer Architecture</item>
+        <item>Computer Engineering</item>
+        <item>Computer Graphics</item>
+        <item>Computer Graphics and Multimedia</item>
+        <item>Computer Networks</item>
+        <item>Computer Organization and Assembly Language Programming</item>
+        <item>Computer Science &amp; Engineering</item>
+        <item>Computers</item>
+        <item>Consulting</item>
+        <item>Consumer Affairs</item>
+        <item>Consumer Behaviour</item>
+        <item>Corporate and Industrial Laws</item>
+        <item>Corporate Law</item>
+        <item>Cost Accounting</item>
+        <item>Currency and Debt Markets</item>
+        <item>Cyber Ethics</item>
+        <item>Dance</item>
+        <item>Data and File Structures</item>
+        <item>Data Communication and Computer Networks</item>
+        <item>Data Structure</item>
+        <item>Data Warehouse and Data Mining</item>
+        <item>Database Management System</item>
+        <item>Dermatology</item>
+        <item>Dermatology and Venereology</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Development Skills</item>
+        <item>Digital Electronics</item>
+        <item>Digital Marketing</item>
+        <item>Discrete Mathematics</item>
+        <item>Drawing</item>
+        <item>E-commerce</item>
+        <item>Earth Sciences</item>
+        <item>Economic Analysis</item>
+        <item>Economic and Social Environment</item>
+        <item>Economics</item>
+        <item>Education</item>
+        <item>Electorincs  Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics and Telecommunication Engineering</item>
+        <item>Employment Relations</item>
+        <item>Energy Science &amp; Engineering</item>
+        <item>English</item>
+        <item>English Grammar</item>
+        <item>English Verbal</item>
+        <item>Entrepreneurship</item>
+        <item>Entrepreneurship Development</item>
+        <item>Environmental Engineering</item>
+        <item>Environmental Science</item>
+        <item>Equity Derivatives</item>
+        <item>Equity Markets</item>
+        <item>Family Medicine</item>
+        <item>Fashion Technology</item>
+        <item>Finance</item>
+        <item>Financial Accounting</item>
+        <item>Financial Management</item>
+        <item>Financial Management and Policy</item>
+        <item>Food Engineering</item>
+        <item>Forensic Medicine &amp; Toxicology</item>
+        <item>French</item>
+        <item>General Medicine</item>
+        <item>Genetic Engineering</item>
+        <item>Geo Informatics</item>
+        <item>Geography</item>
+        <item>Geotechnical Engineering</item>
+        <item>Gk</item>
+        <item>Grammar</item>
+        <item>Gst</item>
+        <item>Hindi</item>
+        <item>Hindi Verbal</item>
+        <item>History</item>
+        <item>Home Science</item>
+        <item>HSC-chemistry</item>
+        <item>HSC-english</item>
+        <item>HSC-maths</item>
+        <item>HSC-physics</item>
+        <item>Human Resource Development</item>
+        <item>Human Resource Management</item>
+        <item>Human Resource Planning</item>
+        <item>Human Resources</item>
+        <item>Human Rights</item>
+        <item>Income Tax and Audit</item>
+        <item>Income Tax Laws and Practice</item>
+        <item>India’s Foreign Trade and Investment</item>
+        <item>Indian Economy</item>
+        <item>Industrial Economics</item>
+        <item>Industrial Engineering</item>
+        <item>Industrial Engineering &amp; Operations Research</item>
+        <item>Industrial Law</item>
+        <item>Industrial Relations</item>
+        <item>Information and Communication Technology</item>
+        <item>Information System Management</item>
+        <item>Information Systems</item>
+        <item>Information Systems for Managers</item>
+        <item>Information Technology Engineering</item>
+        <item>Instrumentation and Control Engineering</item>
+        <item>Insurance</item>
+        <item>International Accounting</item>
+        <item>International Business</item>
+        <item>International Business Management</item>
+        <item>International Financial Management</item>
+        <item>International Human Resource Management</item>
+        <item>International Marketing</item>
+        <item>Internet Concepts and Web Design</item>
+        <item>Introduction to Computer and</item>
+        <item>Introduction to Database Management Systems</item>
+        <item>Java</item>
+        <item>Journalism</item>
+        <item>Labour</item>
+        <item>Laws</item>
+        <item>Linux Environment</item>
+        <item>Logistics and Supply Chain Management</item>
+        <item>Maintenance Management</item>
+        <item>Management Accounting</item>
+        <item>Management Control and Information System</item>
+        <item>Management Functions and Behaviour</item>
+        <item>Management Information Systems</item>
+        <item>Management of Financial Services</item>
+        <item>Management of Human Resources</item>
+        <item>Management of International Business Operations</item>
+        <item>Management of Machines and Materials</item>
+        <item>Management of Marketing Communication and Advertising</item>
+        <item>Management of R&amp;d and Innovation</item>
+        <item>Managerial Accounting</item>
+        <item>Managerial Economics</item>
+        <item>Managerial Skill Development</item>
+        <item>Managing Change in Organisations</item>
+        <item>Manufacturing and Modeling</item>
+        <item>Manufacturing Engineering</item>
+        <item>Marine Engineering</item>
+        <item>Marketing</item>
+        <item>Marketing Management</item>
+        <item>Marketing of Services</item>
+        <item>Marketing Research</item>
+        <item>Materials</item>
+        <item>Materials Management</item>
+        <item>Materials Science Engineering</item>
+        <item>Mathematics</item>
+        <item>Mechanical and Automation Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Medicine</item>
+        <item>Metallurgical Engineering</item>
+        <item>Microbiology</item>
+        <item>Microelectronics Engineering</item>
+        <item>Microprocessor</item>
+        <item>Mobile Computing</item>
+        <item>Moral Sceince</item>
+        <item>Multimedia and Its Application</item>
+        <item>Music</item>
+        <item>NA</item>
+        <item>Nano Technology Engineering</item>
+        <item>Nanotechnology Engineering</item>
+        <item>Network Programming</item>
+        <item>Network Security</item>
+        <item>Nuclear Engineering</item>
+        <item>Nuclear Medicine</item>
+        <item>Numerical and Statistical Computing</item>
+        <item>Object Oriented Analysis and Design</item>
+        <item>Object-oriented Technologies and Java Programming</item>
+        <item>Obstetrics &amp; Gynaecology</item>
+        <item>Operating System</item>
+        <item>Operating System Concepts and Networking Management Systems</item>
+        <item>Operating Systems</item>
+        <item>Operations Management</item>
+        <item>Operations Research</item>
+        <item>Ophthalmology</item>
+        <item>Organisation Theory and Behaviour</item>
+        <item>Organisational Design, Development and Change</item>
+        <item>Organisational Dynamics</item>
+        <item>Organization Behavior</item>
+        <item>Orthopaedics</item>
+        <item>Otorhinolaryngology</item>
+        <item>Paediatrics</item>
+        <item>Palliative Medicine</item>
+        <item>Parallel Computing</item>
+        <item>Pathology</item>
+        <item>Pediatrics</item>
+        <item>Personality</item>
+        <item>Petroleum Engineering</item>
+        <item>Pharmacology</item>
+        <item>Philosophy</item>
+        <item>Physical Education</item>
+        <item>Physics</item>
+        <item>Physics</item>
+        <item>Physiology</item>
+        <item>Political Science</item>
+        <item>Polytech Engineering</item>
+        <item>Power Electronics</item>
+        <item>Power Engineering</item>
+        <item>Principles of Accounting</item>
+        <item>Principles of Management</item>
+        <item>Principles of Management and Information System</item>
+        <item>Problem Solving and Programming</item>
+        <item>Product Management</item>
+        <item>Production and Operation Management</item>
+        <item>Production Engineering</item>
+        <item>Professionals in Financial Markets Practice</item>
+        <item>Project Management</item>
+        <item>Project Management and Financial Services</item>
+        <item>Psychiatry</item>
+        <item>Psychology</item>
+        <item>Public Administration</item>
+        <item>Pulmonology</item>
+        <item>Quantitative Analysis for Managerial Applications</item>
+        <item>Quantitative Techniques</item>
+        <item>Quantitative Techniques for Business Decisions</item>
+        <item>Radiodiagnosis</item>
+        <item>Radiotherapy</item>
+        <item>Research Methodology</item>
+        <item>Retail Management</item>
+        <item>Rural Development</item>
+        <item>Rural Marketing</item>
+        <item>Sales and Distribution Management</item>
+        <item>Sales Management</item>
+        <item>Sanskrit</item>
+        <item>Security Analysis and Portfolio Management</item>
+        <item>Services Marketing</item>
+        <item>Social Processes and Behavioural Issues</item>
+        <item>Social Science- Civics</item>
+        <item>Social Science- Economics</item>
+        <item>Social Science- Geography</item>
+        <item>Social Science- History</item>
+        <item>Sociology</item>
+        <item>Software Development Skills</item>
+        <item>Software Engineering</item>
+        <item>Software Testing</item>
+        <item>SSC-biology</item>
+        <item>SSC-chemistry</item>
+        <item>SSC-computers</item>
+        <item>SSC-english</item>
+        <item>SSC-maths</item>
+        <item>SSC-physics</item>
+        <item>Statistical Analysis</item>
+        <item>Statistics</item>
+        <item>Strategic Management</item>
+        <item>Surgery</item>
+        <item>System Analysis and Design</item>
+        <item>Systems &amp; Control Engineering</item>
+        <item>Taxation Management</item>
+        <item>Technical Communication</item>
+        <item>Textile Engineering</item>
+        <item>Thermal Engineering</item>
+        <item>Training and Development</item>
+        <item>Transportation Engineering</item>
+        <item>Trigonomatrics</item>
+        <item>Tropical</item>
+        <item>Urdu</item>
+        <item>Vb.net</item>
+        <item>Verbal</item>
+        <item>Wage and Salary Administration</item>
+        <item>Web Based Programming</item>
+        <item>Web Technology</item>
+        <item>Working Capital Management</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_show_group">ShowGroup</string>
+
+
+</resources>

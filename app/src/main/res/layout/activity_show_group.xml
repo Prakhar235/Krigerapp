@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="in.kriger.newkrigercampus.groupactivities.ShowGroup">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_bar_gradient"
+            android:id="@+id/group_layout"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="3dp"
+                android:layout_alignParentStart="true"
+                android:id="@+id/action_bar_image"
+                android:layout_alignParentTop="true" />
+
+            <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/group_name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/White"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                />
+
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:id="@+id/imageview_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:padding="3dp"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:visibility="gone"
+                android:layout_gravity="center_vertical"
+                android:textSize="9sp"
+                android:text="@string/pending_invitation"
+                android:textColor="@color/Offline"
+                android:background="@drawable/button_background_fill_red"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="end"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/settings"
+                android:padding="3dp" />
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="125dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<in.kriger.krigercampus.extras.CustomButton-->
+                <!--android:id="@+id/add_mem"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/profile_bar_gradient"-->
+                <!--android:gravity="center"-->
+                <!--android:textAllCaps="false"-->
+                <!--android:text="Add Members"-->
+                <!--android:textColor="@color/White"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textStyle="bold" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:indeterminate="true"
+            android:theme="@style/AppTheme.ProgressBar"
+             />
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeToRefresh"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/group_layout"
+            android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="41dp"
+                android:layout_marginTop="15dp"
+                android:clipToPadding="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:id="@+id/no_post_text"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_centerInParent="true"
+            android:text="Be the first one to post in this group!"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="22sp"
+            android:visibility="gone"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item2_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/float_button_bg_round_gradient_new_post"
+            android:textSize="15sp"
+            fab:fab_colorNormal="#3994e4"
+            fab:fab_colorPressed="#3994e4"
+            app:fab_label="Write Post"
+            fab:fab_size="normal" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

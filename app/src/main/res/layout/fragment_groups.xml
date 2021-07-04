@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/group_frame_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    tools:context=".bottomfragments.Groups">
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/profile_bar_gradient">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="40dp"
+                android:layout_width="40dp"
+                android:id="@+id/profile_photo"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/default_profile"
+                android:background="@drawable/circular_background_white"
+                android:layout_marginTop="9dp"
+                android:layout_gravity="center"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toRightOf="@+id/profile_photo"
+                android:background="@drawable/button_background_round_white"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:id="@+id/text_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_24dp"
+                android:layout_marginTop="18dp"
+                android:id="@+id/btn_text_search"
+                android:layout_alignEnd="@id/text_search"
+                android:layout_marginRight="3dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:id="@+id/suggest_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="65dp"
+            android:background="@color/White"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="Suggested Groups For You"
+            android:textColor="@color/Black"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/suggestion_groups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal"
+            android:background="@color/White"
+            android:padding="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:id="@+id/your_group_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/recycler_view_verti"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="-215dp"
+            android:background="@color/White"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/Black"
+            android:text="Your Groups" />
+        
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_verti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginBottom="40dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </RelativeLayout>
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:id="@+id/no_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No groups in your list?"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:id="@+id/addgrp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Let's create a group or be a member of any of the Suggested Groups"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        />
+
+
+
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/create_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/grp_search"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/float_button_bg_round_gradient"
+        android:textSize="15sp"
+        app:fab_colorNormal="#3994e4"
+        app:fab_colorPressed="#3994e4" />
+
+
+
+
+
+    <!--</RelativeLayout>-->
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/make_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/fui_transparent"
+            android:text="Make Admin"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/remove_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/fui_transparent"
+            android:text="Remove Admin"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/remove_member"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/fui_transparent"
+            android:text="Remove Member"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/fui_transparent"
+            android:text="Visit Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

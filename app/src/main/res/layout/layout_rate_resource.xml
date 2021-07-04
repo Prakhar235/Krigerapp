@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/ic_close_black_24dp"
+        android:layout_gravity="end"
+        android:id="@+id/btn_close"/>
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Submit your review"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#3994e4"
+        android:textSize="25sp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:theme="@style/RatingBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:hint="Review"
+        android:id="@+id/review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/button_background"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="35dp"
+        android:textSize="18sp" />
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Your reviews are public"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_round_blue"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:padding="7dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_submit"/>
+
+
+</LinearLayout>

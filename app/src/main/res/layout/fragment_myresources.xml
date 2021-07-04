@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Wallet"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/profile_bar_gradient"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="3dp"
+                    android:padding="2dp"
+                    android:src="@drawable/coins" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text_coins"
+                            android:textSize="30dp"
+                            android:textColor="@color/black"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:paddingLeft="5dp"
+                            android:text="Coins"
+                            android:textSize="18dp"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <in.kriger.newkrigercampus.extras.CustomButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:textSize="18sp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:text="More Info"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/button_background_round_blue"
+                        android:id="@+id/btn_payments"/>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Resources"
+            android:background="@drawable/profile_bar_gradient"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="Currently, no listings by me"
+            android:id="@+id/no_resources" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/float_button_bg_round_gradient"
+        app:fab_colorNormal="#3994e4"
+        app:fab_colorPressed="#3994e4" />
+
+
+
+
+
+</FrameLayout>

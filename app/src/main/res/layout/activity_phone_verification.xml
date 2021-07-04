@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/otp_for_verification"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+
+
+    <in.kriger.newkrigercampus.extras.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin = "20dp"
+        android:id="@+id/mobile_number"
+        android:inputType="number"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/send_otp"
+            android:background="@drawable/profile_bar_gradient_round"
+            android:layout_margin="20dp"
+            android:textColor="@color/White"
+            android:text="@string/send_otp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/verify_layout"
+        android:visibility="gone">
+
+
+        <in.kriger.newkrigercampus.extras.CustomEditText
+                android:id="@+id/editText_verify_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:hint="@string/otp_code"
+                android:inputType="number"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:id="@+id/verify_otp"
+                android:textColor="@color/White"
+                android:text="@string/verify_code"
+                android:background="@drawable/button_background_round_blue"
+                android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

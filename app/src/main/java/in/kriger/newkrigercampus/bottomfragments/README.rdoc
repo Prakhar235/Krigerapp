@@ -1,0 +1,26 @@
+This README file contains following BottomTabs.
+
+
+======================
+    Home Tab
+======================
+* user can see the posts of every users.
+* user can post .
+* user can submit feedback and suggest new feature.
+* user can Like Comment and Share posts.
+* user can like Comments.
+* user can search specific Post People and Group.
+* user can go on another profile by clicking on name of another user.
+
+
+
+======================
+    Profile Tab
+======================
+* user can edit their personal information.
+* show user's information .
+* user can logout.
+* user can refer.
+* show referral score of user.
+* profile meter corresponding to personal information.
+

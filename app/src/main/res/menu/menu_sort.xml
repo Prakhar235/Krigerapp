@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_old"
+        android:title="New to Old"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/old_new"
+        android:title="Old to New"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/high_low"
+        android:title="High to Low"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/low_high"
+        android:title="Low to High"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/a_z"
+        android:title="A to Z"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/z_a"
+        android:title="Z to A"
+        android:checkable="true"
+        />
+</menu>

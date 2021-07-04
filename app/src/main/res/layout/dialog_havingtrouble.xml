@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/kriger_logo"
+        android:id="@+id/kc_icon"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"/>
+
+    <in.kriger.newkrigercampus.extras.CustomTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Blue"
+    android:text="@string/trouble"
+        android:layout_marginTop="30dp"
+    android:textStyle="bold"
+    android:textSize="22sp"
+    android:gravity="center" />
+
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:id="@+id/btn_trouble_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/profile_bar_gradient_round"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <in.kriger.newkrigercampus.extras.CustomButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Whatsapp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_trouble_whatsapp"
+        android:textColor="@android:color/white"
+        android:layout_margin="30dp"
+        android:background="@drawable/profile_bar_gradient_round"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Didn't receive verification mail"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:layout_marginBottom="20dp"
+                android:textAllCaps="false"
+                android:id="@+id/btn_trouble_verification"
+                android:textColor="@android:color/white"
+                android:layout_margin="30dp"
+                android:background="@drawable/profile_bar_gradient_round"/>
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

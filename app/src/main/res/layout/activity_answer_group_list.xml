@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activity_answer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="in.kriger.newkrigercampus.activities.AnswerListActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/White">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/scroll_view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/extendedpost_layout"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/question_layout"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/post_layout">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_height="45dp"
+                                android:layout_width="45dp"
+                                android:id="@+id/profile_photo"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginLeft="15dp"
+                                android:layout_gravity="center"
+                                />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <in.kriger.newkrigercampus.extras.CustomTextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textStyle="bold"
+                                        android:id="@+id/textView_username"
+                                        android:textColor="@color/Black"
+                                        android:textSize="16sp"
+                                        android:layout_marginLeft="10dp" />
+
+                                    <in.kriger.newkrigercampus.extras.CustomButton
+                                        android:id="@+id/btn_tag"
+                                        android:layout_width="100dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_vertical"
+                                        android:background="@drawable/button_background_blue"
+                                        android:gravity="center"
+                                        android:minHeight="0dp"
+                                        android:textSize="12sp"
+                                        android:visibility="gone" />
+
+                                    <!--<ImageView-->
+                                        <!--android:id="@+id/imageview_star"-->
+                                        <!--android:layout_width="wrap_content"-->
+                                        <!--android:layout_height="wrap_content"-->
+                                        <!--android:src="@drawable/ic_star_red_24dp"-->
+                                        <!--android:visibility="gone" />-->
+
+
+                                    <in.kriger.newkrigercampus.extras.CustomTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="end"
+                                        android:layout_gravity="center_vertical"
+                                        android:id="@+id/textView_date"
+                                        android:textColor="@color/Grey"
+                                        android:textSize="13sp"
+                                        android:layout_marginRight="15dp"
+                                        />
+
+
+
+                                </LinearLayout>
+
+                                <in.kriger.newkrigercampus.extras.CustomTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/textView_bio"
+                                    android:textColor="@color/Grey"
+                                    android:textSize="13sp"
+                                    android:layout_marginLeft="10dp" />
+
+                            </LinearLayout>
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <in.kriger.newkrigercampus.extras.SpecialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textIsSelectable="true"
+                            android:padding="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:lineSpacingExtra="2dp"
+                            android:layout_marginRight="20dp"
+                            app:social="hashtag|mention|hyperlink"
+                            app:hashtagColor="@color/colorPrimary"
+                            app:mentionColor="@color/colorPrimary"
+                            app:hyperlinkColor="@color/Blue"
+                            android:textColor="@color/Black"
+                            android:id="@+id/textView_post"/>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ProgressBar
+                                android:id="@+id/loading"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:indeterminate="true"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:theme="@style/AppTheme.ProgressBar"
+                                android:visibility="gone"
+                                />
+
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:scaleType="fitCenter"
+                                android:adjustViewBounds="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="20dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:id="@+id/post_image" />
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/youtube_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="gone" >
+
+                            <fragment
+                                android:id="@+id/youtube_player_fragment"
+                                android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:visibility="gone"
+                                android:layout_marginBottom="5dp"
+                                android:id="@+id/card_view_pdf">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/button_background_black"
+                                    android:visibility="gone"
+                                    android:padding="5dp"
+                                    android:id="@+id/layout_pdf"
+                                    android:orientation="horizontal">
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/pdf"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_gravity="center"
+                                        android:paddingLeft="15dp" />
+
+
+                                    <in.kriger.newkrigercampus.extras.CustomTextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:maxLines="1"
+                                        android:gravity="center"
+                                        android:ellipsize="end"
+                                        android:textSize="25sp"
+                                        android:id="@+id/textView_pdf"
+                                        android:visibility="gone"
+                                        android:textColor="@color/Black"/>
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                        </RelativeLayout>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="15dp">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_weight="1">
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/textview_views_num"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="3dp"
+                                android:textColor="@color/Grey"
+                                android:gravity="end"
+                                android:textSize="13sp"/>
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Views"
+                                android:textColor="@color/Grey"
+                                android:textSize="13sp"
+                                android:layout_marginRight="5dp"
+                                android:layout_gravity="center_vertical"
+                                android:src="@drawable/ic_app_comment"/>
+
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:id="@+id/textview_like_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="end"
+                                android:textColor="@color/Grey"
+                                android:layout_marginRight="3dp"
+                                android:textSize="13sp" />
+
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:id="@+id/show_likes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/Grey"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="end"
+                                android:text="Likes"
+                                android:textSize="13sp" />
+
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:id="@+id/textview_comment_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/Grey"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="3dp"
+                                android:gravity="end"
+                                android:textSize="13sp" />
+
+
+                            <in.kriger.newkrigercampus.extras.CustomTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:textColor="@color/Grey"
+                                android:layout_marginRight="5dp"
+                                android:src="@drawable/ic_app_comment"
+                                android:text="Comments"
+                                android:textSize="13sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomButton
+                            android:layout_width="65dp"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagebutton_like"
+                            android:text="@string/like"
+                            android:textColor="@color/Black"
+                            android:textSize="15sp"
+                            android:textAllCaps="false"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:drawableLeft="@drawable/ic_app_like"
+
+                            />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"
+                            />
+
+                        <in.kriger.newkrigercampus.extras.CustomButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:id="@+id/imagebutton_comment"
+                            android:text="@string/comment"
+                            android:textColor="@color/Black"
+                            android:textAllCaps="false"
+                            android:drawablePadding="10dp"
+                            android:textSize="15sp"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:drawableLeft="@drawable/ic_app_comment"
+                            />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"
+                            />
+
+
+                        <!--<in.kriger.krigercampus.extras.CustomButton-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="30dp"-->
+                            <!--android:id="@+id/imagebutton_share"-->
+                            <!--android:textSize="15sp"-->
+                            <!--android:drawablePadding="-11dp"-->
+                            <!--android:text="@string/share"-->
+                            <!--android:textColor="@color/Black"-->
+                            <!--android:background="?android:attr/selectableItemBackground"-->
+                            <!--android:textAllCaps="false"-->
+                            <!--android:drawableLeft="@drawable/ic_app_share_networks"-->
+                            <!--/>-->
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp">
+
+                            <in.kriger.newkrigercampus.extras.CustomButton
+                                android:layout_width="130dp"
+                                android:layout_height="30dp"
+                                android:id="@+id/imagebutton_share"
+                                android:background="?android:attr/selectableItemBackground"
+                                />
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_horizontal"
+                                android:weightSum="5" >
+                                <ImageView
+                                    android:id="@+id/login_button"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="1dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_whatsapp" />
+                                <ImageView
+                                    android:id="@+id/comapre_now_button"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="1dp"
+                                    android:src="@drawable/ic_facebook" />
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="1dp"
+                                    android:src="@drawable/ic_insta" />
+                                <ImageView
+                                    android:id="@+id/search_button"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="1dp"
+                                    android:src="@drawable/ic_linkedin" />
+
+                                <ImageView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="1dp"
+                                    android:src="@drawable/ic_twitter" />
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@android:color/darker_gray"-->
+                    <!--android:layout_above="@id/bottomBar"-->
+
+                    <!--/>-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Likes"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp"
+                        android:id="@+id/like_heading"
+                        android:visibility="gone"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view_likes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                    <in.kriger.newkrigercampus.extras.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Comments"
+                        android:textColor="@color/Black"
+                        android:textSize="16sp"
+                        android:id="@+id/comment_heading"
+                        android:visibility="gone"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_comment"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:orientation="horizontal">
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/button_mention"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/button_bg_round_gradient"
+            android:text="@string/mention"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+        <in.kriger.newkrigercampus.extras.CustomButton
+            android:id="@+id/button_hashtag"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/button_bg_round_gradient"
+            android:text="#"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <in.kriger.newkrigercampus.extras.SpecialAutoCompleteTextView
+            android:id="@+id/comment_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="12dp"
+            android:inputType="textCapSentences|textMultiLine"
+            app:social= "hyperlink|hashtag|mention"
+            android:maxLines="5"
+            app:mentionColor="@color/Blue"
+            app:hashtagColor="@color/Blue"
+            android:completionThreshold="0"
+            app:hyperlinkColor="@color/Blue"
+            android:background="@drawable/button_background_blue"
+            android:hint="@string/type_your_response"
+            android:imeOptions="actionSearch"
+            />
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/recycler_view_mention"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/comment_text"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:clipToPadding="false"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+
+
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="3dp"
+            android:background="@drawable/button_bg_round_gradient"
+            android:src="@drawable/input_send"/>
+
+
+
+
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_send"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0.03"-->
+        <!--android:src="@drawable/ic_send_black_24dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:background="#ffffff"/>-->
+
+    </LinearLayout>
+</RelativeLayout>

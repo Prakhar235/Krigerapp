@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/card_image_auto"/>
+
+
+
+    <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edittext_auto"
+        android:visibility="gone"
+    android:completionThreshold="1"
+    android:layout_marginBottom="3dp"
+    android:textSize="16sp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="15dp"
+    android:textColor="@color/Black" />
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/view_line"
+        android:background="#C2C2C2"/>
+
+
+</LinearLayout>
+

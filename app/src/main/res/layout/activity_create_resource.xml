@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.CreateResourceActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:civ_border_width="2dp"
+                android:src="@drawable/classroom"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"/>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_photo_camera"
+                android:background="@drawable/circular_background_white"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_edit_camera"
+                android:layout_alignBottom="@+id/profile_photo"
+                android:layout_alignEnd="@+id/profile_photo"
+                android:layout_gravity="top|right" />
+
+            </RelativeLayout>
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/spinner"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomEditText
+                android:id="@+id/edittext_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name of Resource"
+                android:maxLength="100"
+                android:background="@drawable/edittext_layout"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="end"
+                android:textColor="@color/Black"
+                android:id="@+id/name_count"/>
+
+
+            <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/exams"
+                android:hint="Choose related exam"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                app:itemSpacing="8dp"
+                android:id="@+id/flow_exams">
+
+            </com.nex3z.flowlayout.FlowLayout>
+
+            <in.kriger.newkrigercampus.extras.CustomAutoCompleteTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/sub"
+                android:hint="Choose related subject"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <com.nex3z.flowlayout.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemSpacing="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/flow_sub">
+
+            </com.nex3z.flowlayout.FlowLayout>
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:id="@+id/textview_na"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Choose NA. If not applicable."
+                android:padding="5dp"
+                android:textSize="15sp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/spinner_class" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+            
+            <in.kriger.newkrigercampus.extras.CustomEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter fee amount"
+                android:layout_weight="1"
+                android:id="@+id/fee"
+                android:inputType="number"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/Black"
+                    android:text="Per"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fees_type"></Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_time"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Time"
+                android:layout_marginTop="15dp"
+                android:textAllCaps="false"
+                android:background="@drawable/profile_bar_gradient_round"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:layout_gravity="center"
+                android:id="@+id/show_time"/>
+
+
+
+
+            <in.kriger.newkrigercampus.extras.CustomEditText
+                android:id="@+id/edittext_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Detailed description gets better response"
+                android:maxLength="5000"
+                android:background="@drawable/button_background_blue"
+                android:minLines="5"
+                android:gravity="left"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="8"
+                android:padding="3dp"
+                android:textSize="15sp"
+                android:layout_below="@+id/flow_sub"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+
+            <in.kriger.newkrigercampus.extras.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext_description"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/Black"
+                android:layout_gravity="end"
+                android:paddingRight="15dp"
+                android:id="@+id/description_count"/>
+
+            <in.kriger.newkrigercampus.extras.CustomButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/profile_bar_gradient_round"
+                android:id="@+id/btn_publish"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="7dp"
+                android:text="Publish"
+                android:textAllCaps="false"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+
+
+</RelativeLayout>

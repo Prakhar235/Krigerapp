@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativelayout_share"
+    android:background="@color/White">
+
+
+    <ImageView
+        android:src="@drawable/top_bar"
+        android:id="@+id/top-bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/kriger_logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/kriger_logo"
+        android:layout_below="@+id/top-bar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageview_post"
+        android:layout_below="@+id/kriger_logo"
+        />
+
+
+        <in.kriger.newkrigercampus.extras.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/watermark"
+            android:textColor="@color/White"
+            android:layout_below="@+id/imageview_post"
+            android:textSize="18sp"
+            android:background="@drawable/profile_bar_gradient"
+            android:paddingStart="5dp"
+            android:layout_marginTop="10dp"/>
+
+
+    <!--<ImageView
+        android:src="@drawable/top_bar"
+        android:id="@+id/top-bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />-->
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom_bar"
+        android:id="@+id/bottom_share"
+        android:layout_below="@id/watermark" />
+
+
+
+</RelativeLayout>
