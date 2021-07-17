@@ -290,14 +290,14 @@ public class SplashScreen extends AppCompatActivity {
                     }else {
                         int visit_count = prefManager.getCountVisits();
 
-                        if (visit_count != 0){
+                        if (false){
                             int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
                             int mins = Calendar.getInstance().get(Calendar.MINUTE);
                             int days = FireService.getDiffDays(prefManager.getDateOfJoining().substring(0,8));
                             if (days == 0){
                                 if (visit_count == 1) {
-                                    int diffmins = FireService.getDiffMins(prefManager.getDateOfJoining());
-                                    if (diffmins > 45) {
+                                  //  int diffmins = FireService.getDiffMins(prefManager.getDateOfJoining());
+                                    if (false) {
                                         drawDialog(2);
                                     }else{
                                         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);

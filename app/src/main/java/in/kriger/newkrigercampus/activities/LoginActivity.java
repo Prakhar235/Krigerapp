@@ -43,6 +43,7 @@ import com.google.firebase.dynamiclinks.PendingDynamicLinkData;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import es.dmoral.toasty.Toasty;
 import in.kriger.newkrigercampus.extras.PrefManager;
@@ -151,7 +152,12 @@ public class LoginActivity extends AppCompatActivity {
         button_login_signup.setTypeface(new TypefaceUtil().getfont(getApplicationContext()));
         button_login_signup.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this,EducatorActivity.class);
+             //   Intent intent = new Intent(LoginActivity.this,EducatorActivity.class);
+             //   startActivity(intent);
+                ArrayList<Integer> cblist = new ArrayList<>();
+                cblist.add(0);
+                Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+                intent.putExtra("checkboxlist",cblist);
                 startActivity(intent);
             }
 

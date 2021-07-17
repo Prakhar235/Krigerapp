@@ -9,16 +9,19 @@
 
     <item
         android:id="@+id/menu_market"
+        android:visible="false"
         android:icon="@drawable/ic_school_black_24dp"
         />
 
     <item
         android:id="@+id/menu_groups"
+        android:visible="false"
         android:icon="@drawable/ic_people_black_24dp" />
 
 
     <item
         android:id="@+id/menu_krigers"
+        android:visible="false"
         android:icon="@drawable/ic_search_black_24dp"
         />
 

@@ -203,6 +203,10 @@ public class HomeActivity extends AppCompatActivity implements ContactInterface 
 
 
         bottomBar =  findViewById(R.id.bottomBar);
+        bottomBar.getTabAtPosition(2).setVisibility(View.GONE);
+        bottomBar.getTabAtPosition(1).setVisibility(View.GONE);
+        bottomBar.getTabAtPosition(3).setVisibility(View.GONE);
+
 
 
 
@@ -898,8 +902,14 @@ public class HomeActivity extends AppCompatActivity implements ContactInterface 
                             true).show();
                 } else {
 
-                    thirdFirstVisit();
+
+                 //   thirdFirstVisit();
                     dialog.dismiss();
+                    final ArrayList<Integer> selected_exam_choices = new ArrayList<>();
+                    final ArrayList<Integer> selected_subject_choices = new ArrayList<>();
+                    selected_exam_choices.add(1);
+                    selected_subject_choices.add(1);
+                    updateProfile(selected_exam_choices,selected_subject_choices);
                 }
             }
         });
@@ -1935,7 +1945,7 @@ public class HomeActivity extends AppCompatActivity implements ContactInterface 
         map.put("/User/" + user.getUid() + "/hometown",hometown.getText().toString());
         map.put("/User/" + user.getUid() + "/state", cityStateCountry.getStateCode(state.getSelectedItemPosition()));
         map.put("/User/" + user.getUid() + "/birthday", birthday.getText().toString());
-        map.put("User/" + user.getUid() + "/latestedu", latestedu.getSelectedItem().toString());
+        map.put("User/" + user.getUid() + "/latestedu", "SSC");
 
 
 
